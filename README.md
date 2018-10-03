@@ -14,6 +14,11 @@ The template is meant to be cloned for a new Workshop and used to set up as the 
 
 You can look at this template, served as HTML after jekyll has done its job at the corresponding `github.io` page: https://w3c.github.io/ws-homepage-template/index.html.
 
+## Testing locally
+
+The repository content (or a clone thereof) can be tested locally by running [jekyll](https://jekyllrb.com/) locally (see [jekyll's start docu](https://jekyllrb.com/docs/)). Note that running jekyll locally requires the presence of the `Gemfile` and `Gemfile.lock` files which are generated when initializing a local jekyll site. Because these files are usually put on the `.gitignore` (or `~/.gitignore_global`) files (ie, they are ignored by git), a "template" versions of these files have been put on the repository if you want to bypass the "official" installation steps.
+
+
 ---
 
 Ivan Herman, ivan@w3.org
