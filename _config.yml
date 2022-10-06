@@ -11,5 +11,3 @@ highlighter: rouge
 exclude:
   - Gemfile
   - Gemfile.lock
-plugins:
-  - jekyll-toc

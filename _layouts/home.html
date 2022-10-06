@@ -25,10 +25,7 @@
 
 <body>
         {% include header.html %}
-    <aside class="box">
-        <h2>Table of Contents</h2>
-        {:toc}
-    </aside>
+        {% include toc.html %}
     <main id="main" class="main">
         <section id="home">
             {{ content }}
