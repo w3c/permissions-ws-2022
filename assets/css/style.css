@@ -120,6 +120,13 @@ a.ref {
 .box *:last-child {
     margin-bottom: 0;
 }
+#toc {
+    margin-top: 0.5em;
+}
+
+.toc-entry ul {
+    margin-top: 0;
+}
 
 .image-paragraph-host {
     margin-bottom: .75em;
@@ -319,7 +326,7 @@ a.footnote-ref {
     text-decoration: none;
 }
 
-h2.footnote:before {
+/*h2.footnote:before {
     content: counter(footnote_counter);
     display: block;
     float: left;
@@ -327,7 +334,7 @@ h2.footnote:before {
     margin-right: 1.25ch;
     padding: 2em 4em;
     vertical-align: top;
-}
+}*/
 
 h2.footnote:after {
     clear: both;

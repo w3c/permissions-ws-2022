@@ -1,8 +1,12 @@
-#theme: jekyll-theme-minimal
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  parse_block_html: true
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
 highlighter: rouge
 exclude:
   - Gemfile
