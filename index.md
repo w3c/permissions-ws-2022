@@ -1,5 +1,6 @@
 ---
 layout: home
+toc: true
 ---
 
 # What is the purpose of this workshop?
@@ -40,7 +41,7 @@ Our aim is to get diverse attendance from a variety of industries and communitie
 
 ## Remote participation
 
-This will be a hybrid workshop and we will support remote participants. Sessions will be set in Central European Time, however depending on interest we will endeavor to accommodate UTC–5 (Eastern Standard Time).
+This will be a hybrid workshop and we will support remote participants. Sessions will be set in Central European Time, however depending on interest we will endeavor to accommodate UTC-5 (Eastern Standard Time).
 
 
 # How can I suggest a presentation?
