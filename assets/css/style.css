@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, p, dl, ul, ol {
       margin: 1.5rem 0;
 }
 
+h2 {
+    font-size: 1.25rem;
+}
+
 a, h1, h2, .menu a.active-tab {
     color: #005a9c;
 }
@@ -214,6 +218,10 @@ ul {
     list-style: square;
     margin-left: 0;
     padding-left: 1em;
+}
+
+ul ul {
+    margin-top: 0.1em;
 }
 
 blockquote {
