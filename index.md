@@ -72,7 +72,6 @@ The workshop will be held at Google Munich, Erika-Mann-Stra√üe 33, on the 5th ‚Ä
 The closest airport is Munich International Airport (MUC).
 
 # Program Committee (tentative)
-- Marcos Caceres, Apple
 - Balazs Engedy, Google
 - Lukasz Olejnik, W3C
 - Christine Runnegar, Internet Society
