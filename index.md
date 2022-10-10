@@ -11,13 +11,17 @@ The W3C Workshop on Permissions brings together security and privacy experts, UI
 # Which topics will be covered?
 To keep the scope of this workshop practical, we'd like to encourage conversation about the ways in which user agents can (or cannot) engage users in its decisions about which capabilities to expose to which websites. The proposed scope includes:
 
+- user concerns and preferences;
 - better alignment of permission lifetime/duration with user tasks;
-- human-centric grouping/categorization of permissions and applications;
+- risks and benefits of human-centric grouping/categorization of permissions and applications;
 - challenges with novel capabilities;
+- capability abuse threat models and mitigations;
 - scoping of permissions to origins vs. applications, relation to same origin policy;
 - UIs and controls;
-- integrated permission control surfaces tailored to the capability itself; and
-- permission transparency and control.
+- integrated permission control surfaces tailored to the capability itself;
+- permission transparency, accountability, and control; and
+- balancing well-specified permissions UX in standards with the ability for implementers to meet the future user and product requirements.
+
 
 We aim to share experiences and user studies, leading to common understanding of how to ensure user comprehension and control of powerful capabilities while managing cognitive load.
 
