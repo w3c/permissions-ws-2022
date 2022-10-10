@@ -67,7 +67,7 @@ A good position statement should be a few paragraphs long and should include:
 
 Submissions should be between 200 and 1000 words.
 
-Please submit statements to the program committee by adding your statement to the [position papers directory](https://github.com/w3c/permissions-ws-2022/tree/master/papers) and opening a [pull request](https://github.com/w3c/permissions-ws-2022/pulls). 
+Please submit statements to the program committee by adding your statement to the [position papers directory](https://github.com/w3c/permissions-ws-2022/tree/master/papers) and opening a [pull request](https://github.com/w3c/permissions-ws-2022/pulls). Alternatively, you can email your statement to the program committee at [permissions-ws-2022-committee@chromium.org](mailto:permissions-ws-2022-committee@chromium.org).
 
 # Location and Time
 
