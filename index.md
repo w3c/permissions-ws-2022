@@ -4,7 +4,7 @@ toc: true
 ---
 
 # What is the purpose of this workshop?
-Existing and novel Web APIs being used in more and more contexts challenge what users can easily deal with. They may have trouble understanding which information is being disclosed to whom and the threats presented by those disclosures. Deciding when and how to seek a user’s permission or when that permission can be inferred or bypassed has been challenging, with different APIs, operating systems, and browsers handling things in different ways. Both web applications and native applications face similar challenges in this space, and both are in scope for this workshop.
+Existing and novel Web APIs being used in more and more contexts challenge what users can easily deal with. They may have trouble understanding which information is being disclosed to whom and the threats presented by those disclosures. Deciding when and how to seek a user’s permission or when that permission can be inferred or bypassed has been challenging, with different APIs, operating systems, and browsers handling things in different ways. Both web applications and native applications may face similar challenges in this space, therefore discussions on challenges and solutions spanning these two contexts are in scope.
 
 The W3C Workshop on Permissions brings together security and privacy experts, UI/UX designers and researchers, browser vendors, OS developers, API authors, web publishers and users. We aim to address the privacy, security and usability challenges involved in controlling access to an increasingly powerful set of capabilities on the Web and other platforms.
 
