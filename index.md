@@ -77,10 +77,10 @@ The closest airport is Munich International Airport (MUC).
 
 # Program Committee (tentative)
 - Balazs Engedy, Google
-- Lukasz Olejnik, W3C
+- Lukasz Olejnik, independent
 - Christine Runnegar, Internet Society
 - Mike Taylor, Google
-- Anssi Kostiainen, W3C, Intel
+- Anssi Kostiainen, Intel
 - Serena Chen, Google
 - Abdulrahman Alqabandi, Microsoft
 - Maryam Mehrnezhad, Royal Holloway University of London
