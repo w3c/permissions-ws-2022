@@ -6,6 +6,8 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed
+siteurl: https://www.w3.org/Privacy/permissions-ws-2022/
+baseurl: /Privacy/permissions-ws-2022
 permalink: /:categories/:title/
 highlighter: rouge
 exclude:
