@@ -6,7 +6,7 @@
         W3C Workshop on Permissions
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- <style>
     body {
           background-image: url('data:image/svg+xml,\
@@ -25,7 +25,9 @@
 
 <body>
         {% include header.html %}
-        {% include toc.html %}
+        {% if page.toc %}
+            {% include toc.html %}
+        {% endif %}
     <main id="main" class="main">
         <section id="home">
             {{ content }}

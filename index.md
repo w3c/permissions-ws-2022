@@ -31,7 +31,7 @@ The workshop will build on the [W3C Workshop on Permissions and User Consent hel
 
 Attendance is free for all invited participants and is open to the public, whether or not W3C members.
 
-If you wish to express interest in attending, please fill out the [application form](https://docs.google.com/forms/d/e/1FAIpQLSePSeO6YmmENDmTsuBD5OCY0ZkfyGKFaQ5THojWMcE0p1Q_XQ/viewform?usp=sf_link). The application form asks several questions about your background and ideas; please give these questions serious thought. In addition to the application form, you are encouraged to [submit](#how-can-i-suggest-a-presentation) a position statement and/or presentation topic.
+If you wish to express interest in attending, please fill out the [application form](https://docs.google.com/forms/d/e/1FAIpQLSePSeO6YmmENDmTsuBD5OCY0ZkfyGKFaQ5THojWMcE0p1Q_XQ/viewform?usp=sf_link). The application form asks several questions about your background and ideas; please give these questions serious thought. In addition to the application form, you are encouraged to [submit](#how-can-i-suggest-a-presentation) a position statement and/or presentation topic. If you cannot use the application form, please answer the [application questions](/application-questions/) and email your answers to [permissions-ws-2022-committee@chromium.org](mailto:permissions-ws-2022-committee@chromium.org)
 
 Because the venue has limited space, you must receive an acceptance email to attend. You might wish to defer making non-refundable travel arrangements until you receive an invitation. Be sure to keep an eye on these important dates.
 
@@ -67,7 +67,7 @@ A good position statement should be a few paragraphs long and should include:
 
 Submissions should be between 200 and 1000 words.
 
-Please submit statements to the program committee by adding your statement to the [position papers directory](https://github.com/w3c/permissions-ws-2022/tree/master/papers) and opening a [pull request](https://github.com/w3c/permissions-ws-2022/pulls). Alternatively, you can email your statement to the program committee at [permissions-ws-2022-committee@chromium.org](mailto:permissions-ws-2022-committee@chromium.org).
+Please submit statements to the program committee by adding your statement to the [position papers directory](https://github.com/w3c/permissions-ws-2022/tree/main/papers) and opening a [pull request](https://github.com/w3c/permissions-ws-2022/pulls). Alternatively, you can email your statement to the program committee at [permissions-ws-2022-committee@chromium.org](mailto:permissions-ws-2022-committee@chromium.org).
 
 # Location and Time
 
