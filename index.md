@@ -82,6 +82,8 @@ The closest airport is Munich International Airport (MUC).
 - Program announced: Nov 9
 - Workshop: Dec 5-6
 
+_Note that because of the compressed schedule, we will be notifying attendees as soon as possible after we receive a statement of interest._
+
 # Program Committee (tentative)
 - Balazs Engedy, Google
 - Lukasz Olejnik, independent
