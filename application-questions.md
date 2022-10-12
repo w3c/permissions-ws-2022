@@ -40,6 +40,6 @@ Alternatively, you can email your statement to the program committee at permissi
 
 All on-site attendees are required to self-test for COVID before arriving at the venue each day, and are required to wear a mask at all times except when eating or drinking.
 
-Here is our [full list of COVID health measures](/#covid-health-measures).
+Here is our [full list of COVID health measures]({{ site.baseurl }}/#covid-health-measures).
 
 Please acknowledge that you understand and agree to these COVID measures.
