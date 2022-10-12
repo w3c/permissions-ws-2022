@@ -75,6 +75,13 @@ The workshop will be held at Google Munich, Erika-Mann-Stra√üe 33, on the 5th ‚Ä
 
 The closest airport is Munich International Airport (MUC).
 
+# Important Dates
+
+- Position papers due: Oct 26
+- Invitations sent to participants: Nov 7
+- Program announced: Nov 9
+- Workshop: Dec 5-6
+
 # Program Committee (tentative)
 - Balazs Engedy, Google
 - Lukasz Olejnik, independent
