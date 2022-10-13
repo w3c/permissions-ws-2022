@@ -86,7 +86,7 @@ _Note that because of the compressed schedule, we will be notifying attendees as
 
 # Program Committee (tentative)
 - Balazs Engedy, Google
-- Lukasz Olejnik, independent
+- Lukasz Olejnik, independent researcher, fellow of Geneva Academy of International Humanitarian Law and Human rights
 - Wendy Seltzer, W3C
 - Christine Runnegar, Internet Society
 - Mike Taylor, Google
