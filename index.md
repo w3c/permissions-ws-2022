@@ -90,6 +90,7 @@ _Note that because of the compressed schedule, we will be notifying attendees as
 - Wendy Seltzer, W3C
 - Christine Runnegar, Internet Society
 - Mike Taylor, Google
+- Marcos Caceres, Apple
 - Anssi Kostiainen, Intel
 - Serena Chen, Google
 - Abdulrahman Alqabandi, Microsoft
