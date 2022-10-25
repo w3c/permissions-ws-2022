@@ -41,7 +41,7 @@ Here I enumerate a few potential discussion examples:
     - [Operator-based Data Access for Protecting Users' Privacy](http://haojianj.in/presentations/2022-09-15-HDSI-industry.pdf) further summarizes the idea of creating a virtuous cycle ecosystem for privacy. 
 
 2. [Peekaboo - IEEE S&P](http://haojianj.in/resource/pdf/peekaboo-oakland22.pdf)
-    - PPeekaboo is a prototype system I have built to demonstrate the vision I described above. It leverages an in-home hub to pre-process and minimize outgoing data in a structured and enforceable manner before sending it to external cloud servers.
+    -Peekaboo is a prototype system I have built to demonstrate the vision I described above. It leverages an in-home hub to pre-process and minimize outgoing data in a structured and enforceable manner before sending it to external cloud servers.
 
 3. [Exploring the Needs of Users for Supporting Privacy-Protective Behaviors in Smart Homes - SIGCHI 2022](http://haojianj.in/resource/pdf/privacy-speeddating.pdf)
     - This paper compares 11 different privacy protection concepts with 227 participants, offers a list of the pros and cons for each concept, and ranks these design concepts.
