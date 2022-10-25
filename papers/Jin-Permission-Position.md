@@ -11,7 +11,10 @@ I am [Haojian Jin](http://haojianj.in/), an Assistant Professor in Halıcıoğlu
 
 ## Topic
 
-I hope to lead discussions on **creating a virtuous cycle ecosystem for privacy**, which falls under the proposed scope - **permission transparency, accountability, and control**.
+I hope to lead discussions on **creating a virtuous cycle ecosystem for privacy**. Namely, can we enable a new ecosystem where building trustworthy systems is rewarded, and developers compete to guarantee greater user protection, not less.
+This discussion falls under the proposed scope - **permission transparency, accountability, and control**.
+
+
 My position statement has three key ideas.
 
 - First, future developers should collect users' data on a **need-to-know** basis and implement it in a **transparent** and **structured** manner.
@@ -35,7 +38,7 @@ Here I enumerate a few potential discussion examples:
 
 1. [Modular Privacy Flows - 3 page summary of my Ph.D. dissertation](http://haojianj.in/resource/pdf/modular-privacy-flows-short-summary.pdf) 
     - This document describes "how" to enable the virtuous cycle ecosystem. The high-level idea is to replace all-or-nothing binary APIs with operator-based APIs. 
-    - [Operator-based Data Access for Protecting Users’ Privacy](http://haojianj.in/presentations/2022-09-15-HDSI-industry.pdf) further summarizes the idea of creating a virtuous cycle ecosystem for privacy. 
+    - [Operator-based Data Access for Protecting Users' Privacy](http://haojianj.in/presentations/2022-09-15-HDSI-industry.pdf) further summarizes the idea of creating a virtuous cycle ecosystem for privacy. 
 
 2. [Peekaboo - IEEE S&P](http://haojianj.in/resource/pdf/peekaboo-oakland22.pdf)
     - PPeekaboo is a prototype system I have built to demonstrate the vision I described above. It leverages an in-home hub to pre-process and minimize outgoing data in a structured and enforceable manner before sending it to external cloud servers.
