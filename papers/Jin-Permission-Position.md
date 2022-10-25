@@ -47,3 +47,11 @@ Here I enumerate a few potential discussion examples:
     - This paper compares 11 different privacy protection concepts with 227 participants, offers a list of the pros and cons for each concept, and ranks these design concepts.
 
 4. [PrivacyGrade: Grading The Privacy Of Smartphone Apps](http://privacygrade.org/)
+
+
+## Any other suggested topics?
+
+I think having some coverage of different implementation strategies can be helpful. Permission is a multi-stakeholder issue: developers want to achieve more functionality and productivity; users want more control with lower effort; regulators wish to audit systems with limited resources and do not want to stifle innovation; finally, system deployments need to remain proprietary and efficient.
+
+
+The privacy sandbox project is getting in the right direction, as we must respect the fact that companies and developers need to build thriving digital businesses.
