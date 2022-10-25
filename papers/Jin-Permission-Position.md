@@ -7,7 +7,6 @@
 I am [Haojian Jin](http://haojianj.in/), an Assistant Professor in Halıcıoğlu Data Science Institute at UC San Diego. I recently graduated from [Human-Computer Interaction Institute](https://www.hcii.cmu.edu/) at Carnegie Mellon University. My [Ph.D. dissertation](http://haojianj.in/resource/pdf/modular-privacy-flows-short-summary.pdf) proposes a new way to design, implement, and interact with permissions in the interest of privacy. 
 
 
-![Let the good privacy drive out the bad privacy](Jin-thumbnail.png)
 
 ## Topic
 
@@ -23,6 +22,8 @@ My position statement has three key ideas.
 
 - Third, most users will rely on trusted third parties to manage their permissions aggregately. For example, a trusted third party may develop [Privacy Diagnostics](http://haojianj.in/resource/pdf/privacy-speeddating.pdf), similar to security
 diagnostics in anti-virus software, to help users identify and fix suspicious permissions. 
+
+![Let the good privacy drive out the bad privacy](Jin-thumbnail.png)
 
 
 The discussion would be more about "what if" rather than "how." 
