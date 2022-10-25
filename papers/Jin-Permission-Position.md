@@ -34,7 +34,7 @@ Here I enumerate a few potential discussion examples:
 - When do we need approvals from users? For example, assuming a system offers a differential privacy guarantee, can we grant permission by default? 
 
 
-## Links to support materials
+## Links to supporting materials
 
 1. [Modular Privacy Flows - 3 page summary of my Ph.D. dissertation](http://haojianj.in/resource/pdf/modular-privacy-flows-short-summary.pdf) 
     - This document describes "how" to enable the virtuous cycle ecosystem. The high-level idea is to replace all-or-nothing binary APIs with operator-based APIs. 
