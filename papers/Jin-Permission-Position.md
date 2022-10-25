@@ -4,14 +4,15 @@
 
 ## My background
 
-I am Haojian Jin, an Assistant Professor in Halıcıoğlu Data Science Institute at UC San Diego. I recently graduated from Human-Computer Interaction Institute at Carnegie Mellon University. My Ph.D. dissertation proposes a [new way](http://haojianj.in/resource/pdf/modular-privacy-flows-short-summary.pdf) to design, implement, and interact with permissions in the interest of privacy. 
+I am [Haojian Jin](http://haojianj.in/), an Assistant Professor in Halıcıoğlu Data Science Institute at UC San Diego. I recently graduated from [Human-Computer Interaction Institute](https://www.hcii.cmu.edu/) at Carnegie Mellon University. My [Ph.D. dissertation](http://haojianj.in/resource/pdf/modular-privacy-flows-short-summary.pdf) proposes a new way to design, implement, and interact with permissions in the interest of privacy. 
 
 
 ![Let the good privacy drive out the bad privacy](Jin-thumbnail.png)
 
 ## Topic
 
-I hope to lead discussions on creating a virtuous cycle ecosystem for privacy. My position statement has three key ideas.
+I hope to lead discussions on **creating a virtuous cycle ecosystem for privacy**, which falls under the proposed scope - **permission transparency, accountability, and control**.
+My position statement has three key ideas.
 
 - First, future developers should collect users' data on a **need-to-know** basis and implement it in a **transparent** and **structured** manner.
 
