@@ -45,3 +45,5 @@ Here I enumerate a few potential discussion examples:
 
 3. [Exploring the Needs of Users for Supporting Privacy-Protective Behaviors in Smart Homes - SIGCHI 2022](http://haojianj.in/resource/pdf/privacy-speeddating.pdf)
     - This paper compares 11 different privacy protection concepts with 227 participants, offers a list of the pros and cons for each concept, and ranks these design concepts.
+
+4. [PrivacyGrade: Grading The Privacy Of Smartphone Apps](http://privacygrade.org/)
