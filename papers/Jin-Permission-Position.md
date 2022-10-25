@@ -52,4 +52,4 @@ Here I enumerate a few potential discussion examples:
 
 ## Any other suggested topics?
 
-I hope to have some discussion about different implementation strategies (e.g., P3P, IoT matter) and their tradeoffs. 
+I hope to have some technical discussion about different implementation strategies (e.g., P3P, IoT matter) and their tradeoffs. 
