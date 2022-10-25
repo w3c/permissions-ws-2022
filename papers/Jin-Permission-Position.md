@@ -31,8 +31,8 @@ Here I enumerate a few potential discussion examples:
 
 - What are the potential drawbacks of this new paradigm?
 - When would this new paradigm fail?
-- What are the low-risk fine-grained permissions? 
-- When do we need approvals from users? For example, assuming a system offers a differential privacy guarantee, can we grant permission by default? 
+- What are low-risk fine-grained permissions? 
+- When do we need approvals from users? For example, assuming a system offers a differential privacy guarantee, can we grant permissions by default? 
 
 
 ## Links to supporting materials
