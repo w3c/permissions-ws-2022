@@ -23,7 +23,7 @@ To keep the scope of this workshop practical, we'd like to encourage conversatio
 - balancing well-specified permissions UX in standards with the ability for implementers to meet the future user and product requirements.
 
 
-We aim to share experiences and user studies, leading to common understanding of how to ensure user comprehension and control of powerful capabilities while managing cognitive load.
+We aim to share experiences and user studies, leading to common understanding of how to ensure user comprehension and control of powerful capabilities while managing cognitive load. We would like to focus on usable security topics and thus propose to explicitly leave advertising-related aspects out of scope. While there is some overlap, we believe this topic area is expansive and would like the outcome of this workshop to provide practical next steps related to permissions.
 
 The workshop will build on the [W3C Workshop on Permissions and User Consent held in 2018](https://www.w3.org/Privacy/permissions-ws-2018/cfp.html).
 
