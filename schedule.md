@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /schedule/
+permalink: /schedule
 ---
 
 # Tentative agenda
