@@ -66,7 +66,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 </li>
                 <li>
                     <h4>Permission Misuse & Dark Patterns</h4>
-                    <p><i>Balazs Engedy, Igor Bilogrevich, Google</i></p>
+                    <p><i>Lead: Balazs Engedy, Igor Bilogrevich, Google</i></p>
                 </li>
             </ul>
         </td>
@@ -109,7 +109,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 </li>
                 <li>
                     <h4>Beyond Prompts</h4>
-                    <p><i>Serena Chen, Google</i></p>
+                    <p><i>Lead: Serena Chen, Google</i></p>
                 </li>
             </ul>
         </td>
