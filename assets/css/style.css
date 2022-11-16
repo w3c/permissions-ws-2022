@@ -167,7 +167,7 @@ a.ref {
 .menu {
   background: var(--blue);
   font-size: 1rem;
-  margin: 0 0 2em;
+  margin: 1.5em 0 2em;
 }
 
 .menu, .menu ul, .menu li {
