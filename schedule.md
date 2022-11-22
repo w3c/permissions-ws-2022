@@ -105,7 +105,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 </li>
                 <li>
                     <h4>Transparency and Auditing</h4>
-                    <p><i>Lead: TBD</i></p>
+                    <p><i>Lead: Serge Egelman, UC Berkeley / ICSI / AppCensus</i></p>
                 </li>
                 <li>
                     <h4>Beyond Prompts</h4>
