@@ -31,7 +31,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 <br>
                 03:30-04:00 UTC-05<br>
                 00:30-01:00 UTC-08<br>
-                18:30-19:00 UTC+10<br>
+                19:30-20:00 UTC+11<br>
             </span>
         </th>
         <td>
@@ -48,8 +48,8 @@ We are planning to run themed discussion sessions on the first day. The second d
             <span class="hide-mobile">
                 <br>
                 04:00-06:00 UTC-05<br>
-                23:30-00:30 UTC-08<br>
-                19:00-21:00 UTC+10<br>
+                01:00-03:00 UTC-08<br>
+                20:00-22:00 UTC+11<br>
             </span>
         </th>
         <td>
@@ -78,7 +78,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 <br>
                 06:00-07:30 UTC-05<br>
                 03:00-04:30 UTC-08<br>
-                21:00-22:30 UTC+10<br>
+                22:00-23:30 UTC+11<br>
             </span>
         </th>
         <td>
@@ -92,7 +92,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 <br>
                 07:30-09:30 UTC-05<br>
                 04:30-06:30 UTC-08<br>
-                22:30-00:30 UTC+10<br>
+                23:30-01:30 UTC+11<br>
             </span>
         </th>
         <td>
@@ -128,7 +128,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 <br>
                 10:00-12:00 UTC-05<br>
                 07:00-09:00 UTC-08<br>
-                01:00-03:00 UTC+10<br>
+                02:00-04:00 UTC+11<br>
             </span>
         </th>
         <td>
@@ -170,7 +170,7 @@ We are planning to run themed discussion sessions on the first day. The second d
     </tr>
     <tr>
         <th>
-            <strong>08:30-09:30 <wbr>UTC+01</strong>
+            <strong>08:30-10:00 <wbr>UTC+01</strong>
         </th>
         <td colspan="2">
             <i>Breakfast</i>
@@ -182,8 +182,8 @@ We are planning to run themed discussion sessions on the first day. The second d
             <span class="hide-mobile">
                 <br>
                 04:00-06:00 UTC-05<br>
-                23:30-00:30 UTC-08<br>
-                19:00-21:00 UTC+10<br>
+                01:00-03:00 UTC-08<br>
+                20:00-22:00 UTC+11<br>
             </span>
         </th>
         <td>
@@ -204,7 +204,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 <br>
                 06:00-07:30 UTC-05<br>
                 03:00-04:30 UTC-08<br>
-                21:00-22:30 UTC+10<br>
+                22:00-23:30 UTC+11<br>
             </span>
         </th>
         <td colspan="2">
@@ -218,7 +218,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 <br>
                 07:30-09:30 UTC-05<br>
                 04:30-06:30 UTC-08<br>
-                22:30-00:30 UTC+10<br>
+                23:30-01:30 UTC+11<br>
             </span>
         </th>
         <td>
@@ -246,7 +246,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                 <br>
                 10:00-12:00 UTC-05<br>
                 07:00-09:00 UTC-08<br>
-                01:00-03:00 UTC+10<br>
+                02:00-04:00 UTC+11<br>
             </span>
         </th>
         <td colspan="2">
