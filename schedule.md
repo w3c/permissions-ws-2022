@@ -57,7 +57,7 @@ We are planning to run themed discussion sessions on the first day. The second d
             <small>Each session will be around 30 minutes with 5 minute breaks in between.</small>
             <ul>
                 <li>
-                    <h4>Permissions & Consent</h4>
+                    <h4>Permissions & Consent (<a href="papers/W3CPermissionsWorkshop22_LukaszOlejnikSession1.pdf">slides</a>)</h4>
                     <p><i>Lead: Lukasz Olejnik, independent researcher, fellow of Geneva Academy of International Humanitarian Law and Human rights</i></p>
                 </li>
                 <li>
