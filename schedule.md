@@ -166,7 +166,7 @@ We are planning to run themed discussion sessions on the first day. The second d
     <tr>
         <th>Time</th>
         <th>Isar Valley, 6th floor, tower 1</th>
-        <th>Bit, 6th floor, tower 1</th>
+        <th>Dalexdinida, 3rd floor, tower 1</th>
     </tr>
     <tr>
         <th>
@@ -178,23 +178,50 @@ We are planning to run themed discussion sessions on the first day. The second d
     </tr>
     <tr>
         <th>
-            <strong>10:00-12:00 UTC+01</strong>
+            <strong>10:00-10:10 UTC+01</strong>
             <span class="hide-mobile">
                 <br>
-                04:00-06:00 UTC-05<br>
-                01:00-03:00 UTC-08<br>
-                20:00-22:00 UTC+11<br>
+                04:00-04:10 UTC-05<br>
+                01:00-01:10 UTC-08<br>
+                20:00-20:10 UTC+11<br>
             </span>
         </th>
         <td>
-            <ul>
-                <li>Unconference / Breakout sessions</li>
-            </ul>
+            Welcome / plan for the day
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <strong>10:10-11:00 UTC+01</strong>
+            <span class="hide-mobile">
+                <br>
+                04:10-05:00 UTC-05<br>
+                01:10-02:00 UTC-08<br>
+                20:10-21:00 UTC+11<br>
+            </span>
+        </th>
+        <td>
+            Novel building blocks for capability control
         </td>
         <td>
-            <ul>
-                <li>Unconference / Breakout sessions</li>
-            </ul>
+            Keying permissions to tasks vs origin vs app
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <strong>11:10-12:00 UTC+01</strong>
+            <span class="hide-mobile">
+                <br>
+                05:10-06:00 UTC-05<br>
+                02:10-03:00 UTC-08<br>
+                21:10-22:00 UTC+11<br>
+            </span>
+        </th>
+        <td>
+            Prompting for purpose & permission grouping
+        </td>
+        <td>
+            Accessibility considerations
         </td>
     </tr>
     <tr>
@@ -213,23 +240,36 @@ We are planning to run themed discussion sessions on the first day. The second d
     </tr>
     <tr>
         <th>
-            <strong>13:30-15:30 UTC+01</strong>
+            <strong>13:30-14:20 UTC+01</strong>
             <span class="hide-mobile">
                 <br>
-                07:30-09:30 UTC-05<br>
-                04:30-06:30 UTC-08<br>
-                23:30-01:30 UTC+11<br>
+                07:30-08:20 UTC-05<br>
+                04:30-05:20 UTC-08<br>
+                23:30-00:20 UTC+11<br>
             </span>
         </th>
         <td>
-            <ul>
-                <li>Unconference / Breakout sessions</li>
-            </ul>
+            Incentivizing developers to use good patterns / How to design ‘good’ friction?
         </td>
         <td>
-            <ul>
-                <li>Unconference / Breakout sessions</li>
-            </ul>
+            How to involve UX more in standards processes?
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <strong>14:30-15:20 UTC+01</strong>
+            <span class="hide-mobile">
+                <br>
+                08:30-09:20 UTC-05<br>
+                05:30-06:20 UTC-08<br>
+                00:30-01:20 UTC+11<br>
+            </span>
+        </th>
+        <td>
+            Useful attestations / promises / policies <br>Operationalising ‘Contextual Integrity’
+        </td>
+        <td>
+            Use case driven spec work / Updating specs
         </td>
     </tr>
     <tr>
