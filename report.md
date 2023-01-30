@@ -95,43 +95,43 @@ The discussion revealed that it is still uncertain whether users understand the 
 <details>
     <summary>Raw Minutes</summary>
 
-    _Note: We used the [Chatham House rule](https://www.chathamhouse.org/about-us/chatham-house-rule) for minutes._
+_Note: We used the [Chatham House rule](https://www.chathamhouse.org/about-us/chatham-house-rule) for minutes._
 
-    #### Presentation
+#### Presentation
 
-    *   [_Permission-related challenges with browser UX; overcome!_]
-    *   Consent and permissions. What are they?
-        *   We all know what permissions are. Important technical boundary ensuring that the web is trusted. Gates access to information. Nothing unexpected happens.
-        *   Over the years, has changed a lot. Icons showing usage, etc.
-        *   People may regard permissions as a kind of consent. Based in Europe: cookie popup. Asks whether we're ok with sharing information or allowing data processing.
-    *   What permissions could be regarded as regulatory consent?
-        *   Ultimately permissions are a mechanism that should be regarded as something that works so folks don't need to physically block access to webcam, etc.
-        *   Important thing: it must work technically, and users must be able to control it. Message must be clear, user must understand it. Obscure sensor access is difficult for users to understand the risk of and its implications. Consequences of providing access to webcam, light sensor [work with Artur Janc; [link](https://blog.lukaszolejnik.com/stealing-sensitive-browser-data-with-the-w3c-ambient-light-sensor-api/), [link2](https://blog.lukaszolejnik.com/shedding-light-on-designing-web-features-with-privacy-risks-impact-assessments-case-study/)].
-        *   Web permissions should be simple, but also not interrupt the user, not block the main operation of the page.
-        *   Should also be simple to withdraw permissions. If the user clicks "ok" to grant access to Geolocation, it shouldn't be assumed that the access is granted forever.
-        *   Not really _legal_ consent. Some people may regard regulations as considering these prompts legal consent, might require standards of consent (legal consent standard is a different beast). Consent may be grounded in moral theory, but let's not discuss philosophy or the GDPR, or any other regulation. Consent needs to be freely given, specific, granular, unformed, unambiguous, revokable.
-        *   Some of these can be met with permissions, but it is very difficult to e.g. inform users about the purpose of processing a specific type of data. Assumption is that user interfaces should not be controlled by the website. That's the basic security assumption of Chrome (at least): the web should not modify the browser's secure UX. Including messages about usage would be control over these surfaces.
-        *   Permissions also cannot engage in age verification, for example.
-        *   Web permission is a technical solution. It cannot guarantee compliance with regulation. And this is fine. It's a technical measure that should work: users should be informed, and not surprised. When the user clicks "allow", nothing explodes.
-        *   Key technical mechanism, gates sensitive information. It can _support_ regulatory consent, but cannot be interpreted as a regulatory mandate. Various regulations, but only one web. Web browser should work for all. I hope we can expand on those issues discussed: make information clear to users, evolve the user interface.
+*   [_Permission-related challenges with browser UX; overcome!_]
+*   Consent and permissions. What are they?
+    *   We all know what permissions are. Important technical boundary ensuring that the web is trusted. Gates access to information. Nothing unexpected happens.
+    *   Over the years, has changed a lot. Icons showing usage, etc.
+    *   People may regard permissions as a kind of consent. Based in Europe: cookie popup. Asks whether we're ok with sharing information or allowing data processing.
+*   What permissions could be regarded as regulatory consent?
+    *   Ultimately permissions are a mechanism that should be regarded as something that works so folks don't need to physically block access to webcam, etc.
+    *   Important thing: it must work technically, and users must be able to control it. Message must be clear, user must understand it. Obscure sensor access is difficult for users to understand the risk of and its implications. Consequences of providing access to webcam, light sensor [work with Artur Janc; [link](https://blog.lukaszolejnik.com/stealing-sensitive-browser-data-with-the-w3c-ambient-light-sensor-api/), [link2](https://blog.lukaszolejnik.com/shedding-light-on-designing-web-features-with-privacy-risks-impact-assessments-case-study/)].
+    *   Web permissions should be simple, but also not interrupt the user, not block the main operation of the page.
+    *   Should also be simple to withdraw permissions. If the user clicks "ok" to grant access to Geolocation, it shouldn't be assumed that the access is granted forever.
+    *   Not really _legal_ consent. Some people may regard regulations as considering these prompts legal consent, might require standards of consent (legal consent standard is a different beast). Consent may be grounded in moral theory, but let's not discuss philosophy or the GDPR, or any other regulation. Consent needs to be freely given, specific, granular, unformed, unambiguous, revokable.
+    *   Some of these can be met with permissions, but it is very difficult to e.g. inform users about the purpose of processing a specific type of data. Assumption is that user interfaces should not be controlled by the website. That's the basic security assumption of Chrome (at least): the web should not modify the browser's secure UX. Including messages about usage would be control over these surfaces.
+    *   Permissions also cannot engage in age verification, for example.
+    *   Web permission is a technical solution. It cannot guarantee compliance with regulation. And this is fine. It's a technical measure that should work: users should be informed, and not surprised. When the user clicks "allow", nothing explodes.
+    *   Key technical mechanism, gates sensitive information. It can _support_ regulatory consent, but cannot be interpreted as a regulatory mandate. Various regulations, but only one web. Web browser should work for all. I hope we can expand on those issues discussed: make information clear to users, evolve the user interface.
 
-    #### Discussion
+#### Discussion
 
-    *   Interesting boundary between browser (considered safe) and web content area (not considered safe). Do users actually understand this difference?
-        *   Several papers say no, related to EV certificates.
-    *   How do we quantify user understanding?
-        *   It may be impossible to have everyone understand everything all the time, and maybe we shouldn't try
-        *   Studies from Canada show that the level of understanding is low. Two reasons: There is no education focusing on this in the school system, and the language used is often fuzzy and vague.
-        *   Personal experience as a parent: the UX should be seamless and works for people of all ages and demographics and across people facing different constraints.
-        *   "Permissions aren't the right approach, they are the cowardly way out" - the default should never be to put permission in front of a user. We should find alternatives to permissions and go back to existing APIs and see if we can redesign them in ways that don't require permissions – e.g. CSS. Super challenging, though.
-        *   Studies show that security behavior across demographics vary significantly. Those users for whom we do not design these protections will be more at risk. Important to keep all these groups and differences in mind during the discussions later on.
-    *   Think about how we can enable meaningful consent. When users see permissions dialogs, it is often not doing a good job at telling about why the data is needed, how it is going to be used – it's not in an informed consent. The idea has been to leave the job of providing all that context to the web site. However, most websites are not doing that. We should encourage websites to provide additional context.
-        *   It is tricky to include all aspects of legal (i.e. informed) consent in a simple mechanism like a permission prompt. It can definitely form a building block of informed consent, but we should not, we cannot expect it to be more than it is. Additionally, including too much information in a simple prompt can overwhelm the user.
-        *   Some decisions are complicated, so making these decisions should not be seamless, but should be instead complicated. How do people learn? They make mistakes. Let people learn. Not suggesting to put more text into prompts, but we need to think about new design options.
-        *   Reaction to the idea of understanding and friction. We could use friction to enhance understanding. Studied: How do we communicate encryption to non-expert users. Methodology, two parts: how well do users understand, then: how does this understanding influence their behavior.
-        *   How does a permission prompt deal with user identity and demographics? Out of scope for the workshop.
-        *   Assumption that most users will not read the strings, but will still interact with permission prompt, creating risks.
-    *   Permission-related metaphors and abstractions. We are putting a lot of focus on strings to present to users. Requires technical literacy. Users needs to understand what a term means. "Open door" and "Closed doors" should be metaphors that are more accessible to most people.
+*   Interesting boundary between browser (considered safe) and web content area (not considered safe). Do users actually understand this difference?
+    *   Several papers say no, related to EV certificates.
+*   How do we quantify user understanding?
+    *   It may be impossible to have everyone understand everything all the time, and maybe we shouldn't try
+    *   Studies from Canada show that the level of understanding is low. Two reasons: There is no education focusing on this in the school system, and the language used is often fuzzy and vague.
+    *   Personal experience as a parent: the UX should be seamless and works for people of all ages and demographics and across people facing different constraints.
+    *   "Permissions aren't the right approach, they are the cowardly way out" - the default should never be to put permission in front of a user. We should find alternatives to permissions and go back to existing APIs and see if we can redesign them in ways that don't require permissions – e.g. CSS. Super challenging, though.
+    *   Studies show that security behavior across demographics vary significantly. Those users for whom we do not design these protections will be more at risk. Important to keep all these groups and differences in mind during the discussions later on.
+*   Think about how we can enable meaningful consent. When users see permissions dialogs, it is often not doing a good job at telling about why the data is needed, how it is going to be used – it's not in an informed consent. The idea has been to leave the job of providing all that context to the web site. However, most websites are not doing that. We should encourage websites to provide additional context.
+    *   It is tricky to include all aspects of legal (i.e. informed) consent in a simple mechanism like a permission prompt. It can definitely form a building block of informed consent, but we should not, we cannot expect it to be more than it is. Additionally, including too much information in a simple prompt can overwhelm the user.
+    *   Some decisions are complicated, so making these decisions should not be seamless, but should be instead complicated. How do people learn? They make mistakes. Let people learn. Not suggesting to put more text into prompts, but we need to think about new design options.
+    *   Reaction to the idea of understanding and friction. We could use friction to enhance understanding. Studied: How do we communicate encryption to non-expert users. Methodology, two parts: how well do users understand, then: how does this understanding influence their behavior.
+    *   How does a permission prompt deal with user identity and demographics? Out of scope for the workshop.
+    *   Assumption that most users will not read the strings, but will still interact with permission prompt, creating risks.
+*   Permission-related metaphors and abstractions. We are putting a lot of focus on strings to present to users. Requires technical literacy. Users needs to understand what a term means. "Open door" and "Closed doors" should be metaphors that are more accessible to most people.
 
 </details>
 
