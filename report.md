@@ -7,7 +7,7 @@ layout: home
 Dec 5–6, 2022, Munich
 
 
-## Executive Summary {#executive-summary}
+## Executive Summary
 
 *   Future work should build on the key strengths of the web: safety-by-default, linkability, ephemerality, and interoperability across browsers and platforms.
 *   There was significant interest in non-prompt, contextual permission UIs, which are more seamlessly embedded into the user's journey, and follow the "user-push" model instead of the "developer-pull" model. This approach could allow for more intuitive user controls and better contextual integrity, promote light patterns over dark patterns, and provide user agents with better insight into user intent and inform predictive systems.
@@ -18,23 +18,23 @@ Dec 5–6, 2022, Munich
 *   For accessibility, an important short term goal could be to provide consistent _earcons_ across browsers as non-visual indicators of capability used by websites.
 
 
-## Introduction {#introduction}
+## Introduction
 
 As the web's capabilities continue to grow in power and scope, it becomes increasingly important to ensure that users and developers have a shared understanding of what any given page might be able to do. This workshop followed in the footsteps of the [2018 W3C Workshop on Permissions and User Consent](https://www.w3.org/Privacy/permissions-ws-2018/report.html), exploring the ways in which user agents expose permission decisions in the status quo, focusing on aspects of usable security and user choice. As before, the workshop prioritized discussion and had limited time for presentations. The entire second day consisted of breakout sessions, which were scheduled during the workshop itself.
 
 This report collects some highlights from the individual sessions, based on [the raw minutes](https://docs.google.com/document/d/1chQa2ab_b3gPkk58sFr5cqLVgsdWviLgZl6b9oM3wQU/edit#heading=h.5wqvtwjr07z).
 
 
-## Artifacts {#artifacts}
+## Artifacts
 
-### Agenda {#agenda}
+### Agenda
 
 Slides, when available, are linked to the corresponding agenda entry:
 
 <https://www.w3.org/Privacy/permissions-ws-2022/schedule>
 
 
-### Participants {#participants}
+### Participants
 
 In alphabetical order:
 
@@ -75,12 +75,12 @@ In alphabetical order:
 *   Yi Gu, Google
 
 
-### Minutes {#minutes}
+### Minutes
 
 This document is a summary of the minutes, which are [available in their raw form](https://docs.google.com/document/d/1chQa2ab_b3gPkk58sFr5cqLVgsdWviLgZl6b9oM3wQU/edit#heading=h.5wqvtwjr07z).
 
 
-## Session summaries {#session-summaries}
+## Session summaries
 
 ### Permissions & Consent {#permissions-&-consent}
 
@@ -90,16 +90,16 @@ This document is a summary of the minutes, which are [available in their raw for
 
 In the introductory intervention, Lukasz Olejnik explained the crucial importance of Web Permissions as a natural boundary between sensitive information sources. Rather than a tool devised for regulatory compliance (i.e. consent), it is a power given to the user. It should just work. But does it?
 
-The discussion revealed that it is still uncertain whether users understand the implications of granting access to sensitive information to be shared with a Web origin. It's crucial to "understand this understanding" (or misunderstanding?). Permissions must not be viewed as a rubber-stamp burden placed on the user, including blaming them for the potential backfires later on. The design is an important part. This element must be dealt with strictly. It is not just a matter of web security or UX, although permission prompts, and the associated information, should be communicated to the user fairly and clearly. It's not regulatory "informed consent". However, this is fine! Permissions must not disrupt web browsing, but the addition of some friction may be helpful to make the user think a bit and consider what is happening. 
+The discussion revealed that it is still uncertain whether users understand the implications of granting access to sensitive information to be shared with a Web origin. It's crucial to "understand this understanding" (or misunderstanding?). Permissions must not be viewed as a rubber-stamp burden placed on the user, including blaming them for the potential backfires later on. The design is an important part. This element must be dealt with strictly. It is not just a matter of web security or UX, although permission prompts, and the associated information, should be communicated to the user fairly and clearly. It's not regulatory "informed consent". However, this is fine! Permissions must not disrupt web browsing, but the addition of some friction may be helpful to make the user think a bit and consider what is happening.
 
 
-### Cross-platform Comparison of Permission Models {#cross-platform-comparison-of-permission-models}
+### Cross-platform Comparison of Permission Models
 
 **Presenter**: Maryam Mehrnezhad, Royal Holloway University of London
 
 **Slides**:
 
-This session began by introducing the results of three papers: a [user study on cookie notice dialogs across platforms](https://ieeexplore.ieee.org/abstract/document/9229687) (various browsers on mobile and PC as well as mobile apps), [tracking practices and user behavior across countries](https://petsymposium.org/2022/files/papers/issue1/popets-2022-0006.pdf) (UK, Germany, France), and [mobile sensor permissions via websites and apps](https://dl.acm.org/doi/abs/10.1145/3549015.3554171). Findings include the strong prevalence of dark patterns across platforms, differences across demographics when it comes to user behavior and a perceived advantage of websites over apps, as websites can "just be closed". 
+This session began by introducing the results of three papers: a [user study on cookie notice dialogs across platforms](https://ieeexplore.ieee.org/abstract/document/9229687) (various browsers on mobile and PC as well as mobile apps), [tracking practices and user behavior across countries](https://petsymposium.org/2022/files/papers/issue1/popets-2022-0006.pdf) (UK, Germany, France), and [mobile sensor permissions via websites and apps](https://dl.acm.org/doi/abs/10.1145/3549015.3554171). Findings include the strong prevalence of dark patterns across platforms, differences across demographics when it comes to user behavior and a perceived advantage of websites over apps, as websites can "just be closed".
 
 The ensuing discussion focused on incentives for websites to request the minimal permission they need and reducing the number of prompts. Voiced ideas included:
 
@@ -108,7 +108,7 @@ The ensuing discussion focused on incentives for websites to request the minimal
 *   Adopting purpose specifications as they exist on Mobile OSes today
 *   Providing more compact representations of privacy policies in general
 *   Tying capabilities to intents that users can more easily reason about. Browsers could have built-in knowledge around what's reasonable to achieve some specific goal.
-*   What works or doesn't work is likely highly contextual to a given capability and situation. For example, Firefox telemetry shows that webRTC prompts have very high accept rates and it thus seems likely that users understand such prompts. For other prompts, this is likely quite different. 
+*   What works or doesn't work is likely highly contextual to a given capability and situation. For example, Firefox telemetry shows that webRTC prompts have very high accept rates and it thus seems likely that users understand such prompts. For other prompts, this is likely quite different.
 
 
 ### Permission Misuse & Dark Patterns {#permission-misuse-&-dark-patterns}
@@ -136,15 +136,15 @@ We concluded the session by enumerating a few additional dark patterns, includin
 
 **Slides**: <https://docs.google.com/presentation/d/1AeUnEZJ4YhdcSw1emarmH0S2xoNWavTsFOXpDHGiomA/edit?usp=sharing>
 
-After an opening presentation pointing out where permissions developments can improve W3C spec work – both in feature-specific Working Groups and in horizontal review – the session posed some opening questions on how we might assess and improve user understanding and options. Discussion highlighted many aspects of the standards challenge of user experience (UX). 
+After an opening presentation pointing out where permissions developments can improve W3C spec work – both in feature-specific Working Groups and in horizontal review – the session posed some opening questions on how we might assess and improve user understanding and options. Discussion highlighted many aspects of the standards challenge of user experience (UX).
 
 *   In designing UX, there's tension between desire for harmonization and leaving implementation choice. Review of UX considerations in spec development might help to bridge the split.
 *   "Developers are users too." Can specs provide non-normative UX guidance for implementers and developers? If we don't expect standards to be revisited as understandings change, how do we keep guidance updated?
-*   Build a tighter connection between research and spec-work. Research on user understanding can inform permissions requests (and suggest against asking users futile questions), especially if research investigates current questions in spec design. 
+*   Build a tighter connection between research and spec-work. Research on user understanding can inform permissions requests (and suggest against asking users futile questions), especially if research investigates current questions in spec design.
 *   **Action item:** Build a forum in which to seek UX consensus among implementers and community. A spec may be "feature complete" but one or more implementers reject it for UX considerations. Participants expressed interest in a forum for official discussion and consensus-building around UX, even while normative UX design remains out of scope for spec.
 
 
-### Transparency and Auditing {#transparency-and-auditing}
+### Transparency and Auditing
 
 **Presenter**: Serge Egelman, UC Berkeley / ICSI / AppCensus
 
@@ -161,7 +161,7 @@ During discussion, the group considered approaches to improve the situation. Pro
 The group then wondered how much developers' claims on using permissions need to be backed by legal frameworks. There was a concern that we can't wait for governmental regulation and that such regulation might negatively impact the user experience in unanticipated ways when implemented in practice, as evidenced by cookie consent banners. However, there is not necessarily a need for regulation. There could also be policies enforced by the browser, for example that certain capabilities are only accessible if data sharing attributes, such as a purpose, are defined. Supporting such a definition in a structured format would immediately allow automated auditing by independent third parties. There could also be additional policy enforcement points defined by the W3C.
 
 
-### Beyond Prompts {#beyond-prompts}
+### Beyond Prompts
 
 **Presenter**: Serena Chen, Google
 
@@ -187,12 +187,12 @@ There was significant discussion about a potential HTML element for permission r
 *   To what extent should websites be able to customize this element? For example, to style it similarly as the rest of the website
 *   To what extent should user agents control how this element is displayed? For example, to prevent misuse or spoofing.
 
-Further discussion concerned capabilities themselves: whether capabilities currently were too broad and difficult to specify use cases for. There is value in threat modeling. We also acknowledged that spoofing and fingerprinting were problems that will remain regardless of browser UI, and are very difficult to solve. However we can still try to make this harder for malicious actors, even if we are never able to solve it completely. 
+Further discussion concerned capabilities themselves: whether capabilities currently were too broad and difficult to specify use cases for. There is value in threat modeling. We also acknowledged that spoofing and fingerprinting were problems that will remain regardless of browser UI, and are very difficult to solve. However we can still try to make this harder for malicious actors, even if we are never able to solve it completely.
 
 We also discussed using the extensions pattern for extending web capabilities, however research has shown that people are already confused about what extensions can and cannot do, and tying extra permissions to this pattern may further muddy the waters.
 
 
-### Permissions UX Across Form Factors {#permissions-ux-across-form-factors}
+### Permissions UX Across Form Factors
 
 **Presenter**: Anssi Kostiainen, Intel
 
@@ -209,48 +209,48 @@ A prime example of an implicit consent mechanism is [drag and drop](https://anss
 Suggested future work is to further investigate pull-based permissions models as an alternative to push-based models for web capabilities at large. To support this cross-disciplinary exploration, an open forum where to seek early UX consensus across implementers for new permissions UX would facilitate the process. As of today, cross-stakeholder UX feedback is sought too late in the design process to allow for UX-initiated design iteration without breaking changes.
 
 
-### New Web Experiences and App Models {#new-web-experiences-and-app-models}
+### New Web Experiences and App Models
 
 **Presenter**: Penelope McLachlan, Google
 
 **Slides**: TBD
 
-The web is a successful application platform, especially for desktop computing applications in productivity and creativity. However, there's more opportunity for growth.  
+The web is a successful application platform, especially for desktop computing applications in productivity and creativity. However, there's more opportunity for growth.
 
-How can we offer developers the richest possible set of capabilities for building great applications, offering the power of OS native applications, while keeping the best of the web: safety, interoperability across browsers + OSs and linkability? 
+How can we offer developers the richest possible set of capabilities for building great applications, offering the power of OS native applications, while keeping the best of the web: safety, interoperability across browsers + OSs and linkability?
 
-Many advanced capabilities, such as the ability to register file type associations, are baseline expectations of users for applications on their OS. These are necessary capabilities for web apps to offer convenient, competitive experiences for users, but they aren't powers we would want just any website to have. Today, we have a one size fits all approach where we basically pass all responsibility on to the user & site developer.  
+Many advanced capabilities, such as the ability to register file type associations, are baseline expectations of users for applications on their OS. These are necessary capabilities for web apps to offer convenient, competitive experiences for users, but they aren't powers we would want just any website to have. Today, we have a one size fits all approach where we basically pass all responsibility on to the user & site developer.
 
-How might we differentiate between the applications that need these kinds of capabilities and random websites that might be disrupting user browsing journeys by asking for these powers unnecessarily or even using them for abusive purposes such as fingerprinting or user data exfiltration?   
+How might we differentiate between the applications that need these kinds of capabilities and random websites that might be disrupting user browsing journeys by asking for these powers unnecessarily or even using them for abusive purposes such as fingerprinting or user data exfiltration?
 
-It may be possible for user agents to recognize that some sites are more trustworthy than others using crowd signals. For example, what if we recognize that some sites are applications (such as a video chat app) that have certain requirements to offer user value, whereas others have no need for these capabilities.  
+It may be possible for user agents to recognize that some sites are more trustworthy than others using crowd signals. For example, what if we recognize that some sites are applications (such as a video chat app) that have certain requirements to offer user value, whereas others have no need for these capabilities.
 
-Some of the signals we could look at include: 
+Some of the signals we could look at include:
 
-*   If the user has installed the site as an application, taking advantage of existing user mental models around what installed apps can do 
+*   If the user has installed the site as an application, taking advantage of existing user mental models around what installed apps can do
 *   Developer assertions that can be disclosed at appropriate times to the user in browser UI
 *   Anonymous crowd behavioral data or user behavioral data on device on the site or similar sites
 *   Ratings and reviews
 
-Some APIs we might consider restricting to differentiated, higher trust environments: 
+Some APIs we might consider restricting to differentiated, higher trust environments:
 
 *   Borderless/seamless modes
 *   Local font access
 *   Compute pressure
 *   Idle detection
-*   File handling 
+*   File handling
 *   Multi-screen window placement
 
-What this would mean is that not all sites would get to request access to all capabilities for users. Permission requests from non-differentiated trust sites could be automatically blocked. More trustworthy sites could gain access with less friction, for example via a single permission request for multiple APIs.  
+What this would mean is that not all sites would get to request access to all capabilities for users. Permission requests from non-differentiated trust sites could be automatically blocked. More trustworthy sites could gain access with less friction, for example via a single permission request for multiple APIs.
 
-If successful, we could create a web where users are safer and less interrupted than they are today because more permission requests would be automatically declined, and where it is easier for users to use web applications because it's less likely that they will get themselves into a permission state where the application cannot function in its primary capacity. For example, many users cannot use web video chat apps if they accidentally block camera/mic permission and are unable to recover.  
+If successful, we could create a web where users are safer and less interrupted than they are today because more permission requests would be automatically declined, and where it is easier for users to use web applications because it's less likely that they will get themselves into a permission state where the application cannot function in its primary capacity. For example, many users cannot use web video chat apps if they accidentally block camera/mic permission and are unable to recover.
 
-There are many challenges to work through with this approach. The browser should _act as the user's agent_ but knowing the user's intention is not easy. We must consider, in each API, the impact of getting it wrong.  
+There are many challenges to work through with this approach. The browser should _act as the user's agent_ but knowing the user's intention is not easy. We must consider, in each API, the impact of getting it wrong.
 
 
-## Breakout summaries {#breakout-summaries}
+## Breakout summaries
 
-### Novel building blocks for capability control {#novel-building-blocks-for-capability-control}
+### Novel building blocks for capability control
 
 **Reporter**: Serena Chen
 
@@ -258,7 +258,7 @@ This discussion session centered around potential in-context building blocks for
 
 Applying the principles in the aforementioned papers, an in-context permissions element would be some kind of element rendered in the web content area that could either trigger a classical permission prompt, or a permission grant/deny decision. This would give developers the ability to embed permissions UX in a more contextual way for users.
 
-Concerns discussed include abuse potential, spoofing, and crossing the Line of Death. There was a back-and-forth on whether including browser UI in the web content area would erode the difference between browser and web UI, and whether this was much worse than the status quo, since users currently confuse browser and web UI often. There was concern that putting browser UI in the web content area would also open up an avenue for spoofing, however there would be no incentive to spoof this UI because spoofs of it would not be able to change any permission states, and even if there were incentive to spoof this UI, it would be customisable enough that spoofing would be irrelevant as an attack vector anyway. There is also some existing precedent for browser UI in the web content area: Safari's paste UI, and geolocation button, for example. 
+Concerns discussed include abuse potential, spoofing, and crossing the Line of Death. There was a back-and-forth on whether including browser UI in the web content area would erode the difference between browser and web UI, and whether this was much worse than the status quo, since users currently confuse browser and web UI often. There was concern that putting browser UI in the web content area would also open up an avenue for spoofing, however there would be no incentive to spoof this UI because spoofs of it would not be able to change any permission states, and even if there were incentive to spoof this UI, it would be customisable enough that spoofing would be irrelevant as an attack vector anyway. There is also some existing precedent for browser UI in the web content area: Safari's paste UI, and geolocation button, for example.
 
 Clickjacking is a significant point of potential abuse, so if we were to create such a permission element, we would need to be able to guarantee characteristics such as visual stability, opacity, visibility in the z-order, and perhaps the strings / iconography displayed in the element.
 
@@ -267,7 +267,7 @@ Other ways to de-risk such an element could be to have the element simply trigge
 Further ideas were then discussed. We could potentially use such an element to incentivise good UX (user-triggered permission prompts) and disincentivize bad UX (prompting on page load). We could also leverage previews in prompt UIs to make it clear what data is shared.
 
 
-### Keying permissions to tasks vs origin vs app {#keying-permissions-to-tasks-vs-origin-vs-app}
+### Keying permissions to tasks vs origin vs app
 
 **Reporter**: Balazs Engedy
 
@@ -296,10 +296,10 @@ The goal for prompting with purpose is to move away from technical prompts towar
 
 The group had a mixed opinion on whether the approach would be declarative via the manifest (inherently untrusted) or derived by the browser (how would this work on new sites?).  There were concerns that creating predefined groups might have a chilling effect, working against novel new types of applications, or lend towards apps simply declaring themselves to be "super apps" that need all permissions
 
-The browser cannot really vet the actual purpose of the site, it will be up to the user ultimately to determine if the use of the site is what is disclosed. It seems worthwhile to do UXR on UI disclosing the name from the manifest, an intended purpose and the set of normal permissions associated with that app in a single dialog, what is user sentiment about this UI? What changes about their behavior? Do they want to be able to selectively choose within the predefined lists? 
+The browser cannot really vet the actual purpose of the site, it will be up to the user ultimately to determine if the use of the site is what is disclosed. It seems worthwhile to do UXR on UI disclosing the name from the manifest, an intended purpose and the set of normal permissions associated with that app in a single dialog, what is user sentiment about this UI? What changes about their behavior? Do they want to be able to selectively choose within the predefined lists?
 
 
-### Accessibility considerations {#accessibility-considerations}
+### Accessibility considerations
 
 **Reporter**: Janina Sajka
 
@@ -343,7 +343,7 @@ So to sum up, I guess 3 important things:
 3. Increase transparency, remind users regularly about what they did in the past (without forcing the user to go through something if they do not wish to at that time)
 
 
-### How to involve UX more in standards processes? {#how-to-involve-ux-more-in-standards-processes}
+### How to involve UX more in standards processes?
 
 **Reporter**: Anne van Kesteren
 
@@ -363,7 +363,7 @@ The main takeaways from this session were:
 
 **Summary by**: Marian Harbach
 
-Following on from the first day's discussion on contextual integrity as well as the importance of structured descriptions of data sharing (aka policy), this breakout explored how we could improve the situation on the Web. It came up fairly quickly that the existing but retired P3P standard addresses a very similar problem. The group was wondering if it might be time to bring this line of work back, especially as the regulatory interest has evolved over the last 20 years. Learning from past mistakes with P3P, we could require developers to support something similar in order to get access to capabilities. 
+Following on from the first day's discussion on contextual integrity as well as the importance of structured descriptions of data sharing (aka policy), this breakout explored how we could improve the situation on the Web. It came up fairly quickly that the existing but retired P3P standard addresses a very similar problem. The group was wondering if it might be time to bring this line of work back, especially as the regulatory interest has evolved over the last 20 years. Learning from past mistakes with P3P, we could require developers to support something similar in order to get access to capabilities.
 
 Users also likely have different expectations today and app stores are already catering to that with privacy nutrition labels. Browsers could at first only require the information to show it to users and later start more strict enforcement. As developers already struggle to do the right thing, having good tooling is important too. While any display of additional, developer-controlled information can be abused (and already is, for example on iOS), it was argued that this may still be better than providing no information at all. However, it puts some pressure on browsers to make clear which information is provided by them vs. the website and its developer. One way around that is to let the developer make claims in the content area in a structured way, for example using the HTML permission element discussed in other sessions.
 
@@ -374,7 +374,7 @@ The group then also discussed more technical enforcement mechanisms, like a Manu
 As a first step towards declarations and enforcement, it was brought up that the notification capability is unique: all interactions are fully under the user agent's control, such as the permission prompt and the notification rendering. The capability is purely about the content being displayed. If there was cross-browser agreement on policy and what abuse means, there would be a means to evaluate if abuse happens, and intervene when it does.
 
 
-### Use case driven spec work / Updating specs {#use-case-driven-spec-work-updating-specs}
+### Use case driven spec work / Updating specs
 
 **Reporter**: Ian Clelland
 
@@ -388,10 +388,10 @@ Specifically for Permissions Policy and Permissions, the following topics were d
 
 *   We should integrate Permissions Policy with the Permission Registry, and ensure that the registry can serve both Permissions and Permissions Policy specs.
 *   The document.featurePolicy API is not supported cross-browser, is poorly named, and is mostly redundant with permissions.query, but has very high use on web sites. Chrome, WebKit and Mozilla representatives agreed to meet regularly to try to define and implement a path to actual deprecation of that API.
-*   Finally, a discussion on whether there could be a strict mode for Permissions Policy, similar to the Strict CSP proposal, to make accidental delegation of permissions more difficult, and to protect against a specific scenario of iframe injection by malicious third parties. 
+*   Finally, a discussion on whether there could be a strict mode for Permissions Policy, similar to the Strict CSP proposal, to make accidental delegation of permissions more difficult, and to protect against a specific scenario of iframe injection by malicious third parties.
 
 
-## Participant Feedback {#participant-feedback}
+## Participant Feedback
 
 After the workshop, we sent a feedback survey to all participants. As only 7 participants responded (3 in-person participants, 4 remote), we will only report on a few high-level themes here.
 
@@ -418,11 +418,8 @@ To keep the momentum going, respondents suggested the following:
 *   Participants should write up proposals and share them in slack or file issues against relevant standards.
 
 
-## Acknowledgements and appreciation {#acknowledgements-and-appreciation}
+## Acknowledgements and appreciation
 
 Big thanks to all participants who made the trip to Munich or took time to attend remotely. Many participants mentioned the varied backgrounds of all participants as a key benefit of the workshop.
 
 Thank you to Serena Chen, Balazs Engedy, Marian Harbach and Google for hosting the workshop.
-
-
-raw: https://docs.google.com/document/d/1chQa2ab_b3gPkk58sFr5cqLVgsdWviLgZl6b9oM3wQU/edit#heading=h.5wqvtwjr07z
