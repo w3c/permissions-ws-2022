@@ -6,13 +6,13 @@ toc: true
 
 ## Executive Summary
 
-* Future work should build on the key strengths of the web: safety-by-default, linkability, ephemerality, and interoperability across browsers and platforms.
-* There was significant interest in non-prompt, contextual permission UIs, which are more seamlessly embedded into the user's journey, and follow the "user-push" model instead of the "developer-pull" model. This approach could allow for more intuitive user controls and better contextual integrity, promote light patterns over dark patterns, and provide user agents with better insight into user intent and inform predictive systems.
-* User agents could surface – or adjust behavior based on – additional signals to support informed user choices. These signals might include purpose declarations by developers, crowd-sourced statistics, ratings or reviews, etc. Defining a purpose in a structured language could enable browsers to reframe permissions in terms of utility and potential consequences rather than technical ability, and allow independent parties to audit usage. We can [learn from P3P](https://www.w3.org/2014/privacyws/pp/Binns.pdf).
-* Several areas could benefit from further user research. Examples include understanding the effectiveness of browser-owned UI that crosses the so-called [line of death](https://textslashplain.com/2017/01/14/the-line-of-death/https://textslashplain.com/2017/01/14/the-line-of-death/) to mitigate spoofing risks. Another concerns the granularity and presentation of purpose specifications, such that they provide the most transparency with the least friction to users.
-* There was agreement that getting the UX of permission flows right is a core aspect of making capabilities work well, especially as more capabilities get used in web apps and on a larger variety of interconnected devices. There was a desire to incorporate discussions and considerations around UX into standardization work, for example by building a forum in which to seek UX consensus among implementers and the community.
-* On shaping APIs and specifications, we identified a tension between being known-use-case driven vs. generic-purpose APIs. While the former can often allow crafting better UX, the latter enables broader innovation. In both worlds, developers need guidance and the right tooling to help them deliver on their responsibilities towards users' privacy.
-* For accessibility, an important short term goal could be to provide consistent _earcons_ across browsers as non-visual indicators of capability used by websites.
+- Future work should build on the key strengths of the web: safety-by-default, linkability, ephemerality, and interoperability across browsers and platforms.
+- There was significant interest in non-prompt, contextual permission UIs, which are more seamlessly embedded into the user's journey, and follow the "user-push" model instead of the "developer-pull" model. This approach could allow for more intuitive user controls and better contextual integrity, promote light patterns over dark patterns, and provide user agents with better insight into user intent and inform predictive systems.
+- User agents could surface – or adjust behavior based on – additional signals to support informed user choices. These signals might include purpose declarations by developers, crowd-sourced statistics, ratings or reviews, etc. Defining a purpose in a structured language could enable browsers to reframe permissions in terms of utility and potential consequences rather than technical ability, and allow independent parties to audit usage. We can [learn from P3P](https://www.w3.org/2014/privacyws/pp/Binns.pdf).
+- Several areas could benefit from further user research. Examples include understanding the effectiveness of browser-owned UI that crosses the so-called [line of death](https://textslashplain.com/2017/01/14/the-line-of-death/https://textslashplain.com/2017/01/14/the-line-of-death/) to mitigate spoofing risks. Another concerns the granularity and presentation of purpose specifications, such that they provide the most transparency with the least friction to users.
+- There was agreement that getting the UX of permission flows right is a core aspect of making capabilities work well, especially as more capabilities get used in web apps and on a larger variety of interconnected devices. There was a desire to incorporate discussions and considerations around UX into standardization work, for example by building a forum in which to seek UX consensus among implementers and the community.
+- On shaping APIs and specifications, we identified a tension between being known-use-case driven vs. generic-purpose APIs. While the former can often allow crafting better UX, the latter enables broader innovation. In both worlds, developers need guidance and the right tooling to help them deliver on their responsibilities towards users' privacy.
+- For accessibility, an important short term goal could be to provide consistent _earcons_ across browsers as non-visual indicators of capability used by websites.
 
 
 ## Introduction
@@ -32,42 +32,42 @@ This report collects some highlights from the individual sessions, based on [the
 
 In alphabetical order:
 
-*   Aniketh Girish, IMDEA Networks | UC3M
-*   Anne van Kesteren, Apple
-*   Anssi Kostiainen, Intel
-*   Arnout Terpstra, SURF / Tilburg University
-*   Ashish Ashutosh - INSA Lyon, University of Passau
-*   Balazs Engedy, Google
-*   Cezary Cerekwicki, Opera Software
-*   Emily Turner, the Guardian
-*   Florian Jacky, Google Chrome
-*   Freddy Braun - Mozilla Firefox, Berlin
-*   Gergely Biczók, CrySyS Lab, Budapest Univ. of Tech. and Econ.
-*   Haojian Jin, University of California, San Diego
-*   Ian Clelland, Google
-*   Jay Kishigami, W3C (Keio Univ.)
-*   Johann Hofmann, Google Chrome
-*   Lukasz Olejnik, independent researcher, fellow of Geneva Academy of International Humanitarian Law and Human rights
-*   Marcos Cáceres, Apple
-*   Marian Harbach, Google
-*   Maryam Mehrnezhad, Royal Holloway University of Lonodn, UK
-*   Maxime Veit, Karlsruhe Institute of Technology
-*   Mike West, Google
-*   Nick Doty, Center for Democracy & Technology
-*   Nicolás Peña Moreno, Google
-*   Noam Rosenthal, Google
-*   Primal Wijesekera, ICSI | UC Berkeley
-*   Robert Deimann, University Trier
-*   Sam Weiler, W3C
-*   Sean Harrison, Google
-*   Serena Chen, Google
-*   Serge Egelman, UC Berkeley / ICSI / AppCensus
-*   Sharon Polsky, Privacy & Access Council of Canada
-*   Shuaishuai Liu,  CrySyS Lab, Budapest Univ. of Tech. and Econ.
-*   Thomas Nguyen, Google
-*   Thomas Steiner, Google
-*   Wendy Seltzer, W3C
-*   Yi Gu, Google
+- Aniketh Girish, IMDEA Networks / UC3M
+- Anne van Kesteren, Apple
+- Anssi Kostiainen, Intel
+- Arnout Terpstra, SURF / Tilburg University
+- Ashish Ashutosh - INSA Lyon, University of Passau
+- Balazs Engedy, Google
+- Cezary Cerekwicki, Opera Software
+- Emily Turner, the Guardian
+- Florian Jacky, Google Chrome
+- Freddy Braun - Mozilla Firefox, Berlin
+- Gergely Biczók, CrySyS Lab, Budapest Univ. of Tech. and Econ.
+- Haojian Jin, University of California, San Diego
+- Ian Clelland, Google
+- Jay Kishigami, W3C (Keio Univ.)
+- Johann Hofmann, Google Chrome
+- Lukasz Olejnik, independent researcher, fellow of Geneva Academy of International Humanitarian Law and Human rights
+- Marcos Cáceres, Apple
+- Marian Harbach, Google
+- Maryam Mehrnezhad, Royal Holloway University of Lonodn, UK
+- Maxime Veit, Karlsruhe Institute of Technology
+- Mike West, Google
+- Nick Doty, Center for Democracy & Technology
+- Nicolás Peña Moreno, Google
+- Noam Rosenthal, Google
+- Primal Wijesekera, ICSI / UC Berkeley
+- Robert Deimann, University Trier
+- Sam Weiler, W3C
+- Sean Harrison, Google
+- Serena Chen, Google
+- Serge Egelman, UC Berkeley / ICSI / AppCensus
+- Sharon Polsky, Privacy & Access Council of Canada
+- Shuaishuai Liu,  CrySyS Lab, Budapest Univ. of Tech. and Econ.
+- Thomas Nguyen, Google
+- Thomas Steiner, Google
+- Wendy Seltzer, W3C
+- Yi Gu, Google
 
 
 ### Minutes
@@ -98,12 +98,12 @@ This session began by introducing the results of three papers: a [user study on 
 
 The ensuing discussion focused on incentives for websites to request the minimal permission they need and reducing the number of prompts. Voiced ideas included:
 
-*   Taking requested permissions into account for search result ranking
-*   Removing explicit prompt UIs and instead focusing on contextual UIs or even removing a capability altogether. The example of the ambient light sensor was given where a binary information is now provided without a permission, which suffices for most use cases.
-*   Adopting purpose specifications as they exist on Mobile OSes today
-*   Providing more compact representations of privacy policies in general
-*   Tying capabilities to intents that users can more easily reason about. Browsers could have built-in knowledge around what's reasonable to achieve some specific goal.
-*   What works or doesn't work is likely highly contextual to a given capability and situation. For example, Firefox telemetry shows that webRTC prompts have very high accept rates and it thus seems likely that users understand such prompts. For other prompts, this is likely quite different.
+- Taking requested permissions into account for search result ranking
+- Removing explicit prompt UIs and instead focusing on contextual UIs or even removing a capability altogether. The example of the ambient light sensor was given where a binary information is now provided without a permission, which suffices for most use cases.
+- Adopting purpose specifications as they exist on Mobile OSes today
+- Providing more compact representations of privacy policies in general
+- Tying capabilities to intents that users can more easily reason about. Browsers could have built-in knowledge around what's reasonable to achieve some specific goal.
+- What works or doesn't work is likely highly contextual to a given capability and situation. For example, Firefox telemetry shows that webRTC prompts have very high accept rates and it thus seems likely that users understand such prompts. For other prompts, this is likely quite different.
 
 
 ### Permission Misuse & Dark Patterns
@@ -133,10 +133,10 @@ We concluded the session by enumerating a few additional dark patterns, includin
 
 After an opening presentation pointing out where permissions developments can improve W3C spec work – both in feature-specific Working Groups and in horizontal review – the session posed some opening questions on how we might assess and improve user understanding and options. Discussion highlighted many aspects of the standards challenge of user experience (UX).
 
-*   In designing UX, there's tension between desire for harmonization and leaving implementation choice. Review of UX considerations in spec development might help to bridge the split.
-*   "Developers are users too." Can specs provide non-normative UX guidance for implementers and developers? If we don't expect standards to be revisited as understandings change, how do we keep guidance updated?
-*   Build a tighter connection between research and spec-work. Research on user understanding can inform permissions requests (and suggest against asking users futile questions), especially if research investigates current questions in spec design.
-*   **Action item:** Build a forum in which to seek UX consensus among implementers and community. A spec may be "feature complete" but one or more implementers reject it for UX considerations. Participants expressed interest in a forum for official discussion and consensus-building around UX, even while normative UX design remains out of scope for spec.
+- In designing UX, there's tension between desire for harmonization and leaving implementation choice. Review of UX considerations in spec development might help to bridge the split.
+- "Developers are users too." Can specs provide non-normative UX guidance for implementers and developers? If we don't expect standards to be revisited as understandings change, how do we keep guidance updated?
+- Build a tighter connection between research and spec-work. Research on user understanding can inform permissions requests (and suggest against asking users futile questions), especially if research investigates current questions in spec design.
+- **Action item:** Build a forum in which to seek UX consensus among implementers and community. A spec may be "feature complete" but one or more implementers reject it for UX considerations. Participants expressed interest in a forum for official discussion and consensus-building around UX, even while normative UX design remains out of scope for spec.
 
 
 ### Transparency and Auditing
@@ -168,19 +168,19 @@ Currently, browsers simply ask the user to allow or deny a website a certain cap
 
 This session aimed to explore additional or alternative ways to detect user intent that were not the "yes/no" questions of current typical prompts. To spark discussion, we went through 5-6 concepts on how we might expand our toolkit:
 
-*   Reframe permissions in terms of utility rather than technical capability
-*   Show what is to be shared through user selection
-*   Piggyback off existing OS mental models
-*   Direct controls instead of prompting; i.e., prefer user-pull over developer-push
-*   Sandbox the most risky parts of new capabilities
-*   In-context triggers, such as an HTML Permission Element
+- Reframe permissions in terms of utility rather than technical capability
+- Show what is to be shared through user selection
+- Piggyback off existing OS mental models
+- Direct controls instead of prompting; i.e., prefer user-pull over developer-push
+- Sandbox the most risky parts of new capabilities
+- In-context triggers, such as an HTML Permission Element
 
 In the discussion portion, there was significant interest in the idea of preferring user-push moments over developer-pull. We would need to design enough consistency in this pattern.  There was a suggestion to create a GitHub repo to explore these ideas.
 
 There was significant discussion about a potential HTML element for permission requests. There were open questions around customisation:
 
-*   To what extent should websites be able to customize this element? For example, to style it similarly as the rest of the website
-*   To what extent should user agents control how this element is displayed? For example, to prevent misuse or spoofing.
+- To what extent should websites be able to customize this element? For example, to style it similarly as the rest of the website
+- To what extent should user agents control how this element is displayed? For example, to prevent misuse or spoofing.
 
 Further discussion concerned capabilities themselves: whether capabilities currently were too broad and difficult to specify use cases for. There is value in threat modeling. We also acknowledged that spoofing and fingerprinting were problems that will remain regardless of browser UI, and are very difficult to solve. However we can still try to make this harder for malicious actors, even if we are never able to solve it completely.
 
@@ -222,19 +222,19 @@ It may be possible for user agents to recognize that some sites are more trustwo
 
 Some of the signals we could look at include:
 
-*   If the user has installed the site as an application, taking advantage of existing user mental models around what installed apps can do
-*   Developer assertions that can be disclosed at appropriate times to the user in browser UI
-*   Anonymous crowd behavioral data or user behavioral data on device on the site or similar sites
-*   Ratings and reviews
+- If the user has installed the site as an application, taking advantage of existing user mental models around what installed apps can do
+- Developer assertions that can be disclosed at appropriate times to the user in browser UI
+- Anonymous crowd behavioral data or user behavioral data on device on the site or similar sites
+- Ratings and reviews
 
 Some APIs we might consider restricting to differentiated, higher trust environments:
 
-*   Borderless/seamless modes
-*   Local font access
-*   Compute pressure
-*   Idle detection
-*   File handling
-*   Multi-screen window placement
+- Borderless/seamless modes
+- Local font access
+- Compute pressure
+- Idle detection
+- File handling
+- Multi-screen window placement
 
 What this would mean is that not all sites would get to request access to all capabilities for users. Permission requests from non-differentiated trust sites could be automatically blocked. More trustworthy sites could gain access with less friction, for example via a single permission request for multiple APIs.
 
@@ -344,12 +344,12 @@ So to sum up, I guess 3 important things:
 
 The main takeaways from this session were:
 
-*   The best standards start with use cases and end user stories.
-*   People writing standards tend to shy away from UX as they don't want to be too prescriptive (which is good to some extent), but also because they're unfamiliar (which is bad).
-*   Perhaps UX should be part of the horizontal review process and standards should have a dedicated UX considerations section.
-*   The accessibility groups have learned to do reviews early on and it would make sense for UX to start at that point in the process as well, especially given the earlier point about use cases and end user stories.
-*   UX needs to be fungible for it to be accessible.
-*   From a website perspective, the lack of browser unification around UX makes it hard to create great end user experiences.
+- The best standards start with use cases and end user stories.
+- People writing standards tend to shy away from UX as they don't want to be too prescriptive (which is good to some extent), but also because they're unfamiliar (which is bad).
+- Perhaps UX should be part of the horizontal review process and standards should have a dedicated UX considerations section.
+- The accessibility groups have learned to do reviews early on and it would make sense for UX to start at that point in the process as well, especially given the earlier point about use cases and end user stories.
+- UX needs to be fungible for it to be accessible.
+- From a website perspective, the lack of browser unification around UX makes it hard to create great end user experiences.
 
 
 ### Useful attestations / promises / policies; Operationalising ‘Contextual Integrity'
@@ -381,9 +381,9 @@ Secondly, we discussed spec maintenance, with the specific context of permission
 
 Specifically for Permissions Policy and Permissions, the following topics were discussed:
 
-*   We should integrate Permissions Policy with the Permission Registry, and ensure that the registry can serve both Permissions and Permissions Policy specs.
-*   The document.featurePolicy API is not supported cross-browser, is poorly named, and is mostly redundant with permissions.query, but has very high use on web sites. Chrome, WebKit and Mozilla representatives agreed to meet regularly to try to define and implement a path to actual deprecation of that API.
-*   Finally, a discussion on whether there could be a strict mode for Permissions Policy, similar to the Strict CSP proposal, to make accidental delegation of permissions more difficult, and to protect against a specific scenario of iframe injection by malicious third parties.
+- We should integrate Permissions Policy with the Permission Registry, and ensure that the registry can serve both Permissions and Permissions Policy specs.
+- The document.featurePolicy API is not supported cross-browser, is poorly named, and is mostly redundant with permissions.query, but has very high use on web sites. Chrome, WebKit and Mozilla representatives agreed to meet regularly to try to define and implement a path to actual deprecation of that API.
+- Finally, a discussion on whether there could be a strict mode for Permissions Policy, similar to the Strict CSP proposal, to make accidental delegation of permissions more difficult, and to protect against a specific scenario of iframe injection by malicious third parties.
 
 
 ## Participant Feedback
@@ -396,21 +396,21 @@ When asked about their preferred format and cadence for this event, 5 of 7 respo
 
 We also asked respondents to share ideas for improvements. These included:
 
-*   A more active role of the program committee, querying registered attendees for topics of interest instead of soliciting position papers. This should be used to shape the agenda beforehand and provide newcomers some anonymity to help them participate more actively.
-*   Making objectives and intended outcomes clearer from the outset, so that attendees unfamiliar with W3C workshops know what to expect.
-*   Introduce the role of the W3C and how it works at the beginning.
-*   Find a way to reduce the reliance on technical jargon, such that participants with less technical expertise can follow more easily.
-*   Making more time for introductions.
-*   Focus more on fleshing out ideas.
-*   Give participants a better chance to contribute more equally, as some discussions were dominated by several people.
-*   Try to invite participants with an even broader range of backgrounds, including other domains and jurisdictions
+- A more active role of the program committee, querying registered attendees for topics of interest instead of soliciting position papers. This should be used to shape the agenda beforehand and provide newcomers some anonymity to help them participate more actively.
+- Making objectives and intended outcomes clearer from the outset, so that attendees unfamiliar with W3C workshops know what to expect.
+- Introduce the role of the W3C and how it works at the beginning.
+- Find a way to reduce the reliance on technical jargon, such that participants with less technical expertise can follow more easily.
+- Making more time for introductions.
+- Focus more on fleshing out ideas.
+- Give participants a better chance to contribute more equally, as some discussions were dominated by several people.
+- Try to invite participants with an even broader range of backgrounds, including other domains and jurisdictions
 
 To keep the momentum going, respondents suggested the following:
 
-*   Holding the event more frequently (see below as well)
-*   Create subgroups of people to keep discussion going
-*   Propose that certain people join specific w3c working groups
-*   Participants should write up proposals and share them in slack or file issues against relevant standards.
+- Holding the event more frequently (see below as well)
+- Create subgroups of people to keep discussion going
+- Propose that certain people join specific w3c working groups
+- Participants should write up proposals and share them in slack or file issues against relevant standards.
 
 
 ## Acknowledgements and appreciation
