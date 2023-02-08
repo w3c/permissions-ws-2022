@@ -121,7 +121,7 @@ The ensuing discussion focused on incentives for websites to request the minimal
 
 **Presenter**: Balazs Engedy, Igor Bilogrevic, Google
 
-**Slides**: \[Link not yet provided\]
+**Slides**: <https://www.w3.org/Privacy/permissions-ws-2022/papers/Permission-Misuse-and-Dark-Patterns.pdf>
 
 To kick off the session, the introduction contrasted anti-patterns to dark patterns using the example of the notifications permission: prompting on page load is an anti-pattern vs. tricking the user into allowing is a dark pattern. More generally, [dark strategies](https://www.petsymposium.org/2016/files/papers/Tales_from_the_Dark_Side__Privacy_Dark_Strategies_and_Privacy_Dark_Patterns.pdf) are inverses of [Hoepman's privacy strategies](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf), and among those, data minimization, informing the user, and meaningful controls are the most actionable for user agents to improve.
 
