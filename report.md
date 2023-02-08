@@ -92,7 +92,7 @@ The discussion revealed that it is still uncertain whether users understand the 
 
 **Presenter**: Maryam Mehrnezhad, Royal Holloway University of London
 
-**Slides**: \[Link not yet provided\]
+**Slides**: <https://www.w3.org/Privacy/permissions-ws-2022/papers/W3C-Permission-Workshop-Maryam-Mehrnezhad.pdf>
 
 This session began by introducing the results of three papers: a [user study on cookie notice dialogs across platforms](https://ieeexplore.ieee.org/abstract/document/9229687) (various browsers on mobile and PC as well as mobile apps), [tracking practices and user behavior across countries](https://petsymposium.org/2022/files/papers/issue1/popets-2022-0006.pdf) (UK, Germany, France), and [mobile sensor permissions via websites and apps](https://dl.acm.org/doi/abs/10.1145/3549015.3554171). Findings include the strong prevalence of dark patterns across platforms, differences across demographics when it comes to user behavior and a perceived advantage of websites over apps, as websites can "just be closed".
 
