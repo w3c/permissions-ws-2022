@@ -50,6 +50,7 @@ In alphabetical order:
 *   Lukasz Olejnik, independent researcher, fellow of Geneva Academy of International Humanitarian Law and Human rights
 *   Marcos Cáceres, Apple
 *   Marian Harbach, Google
+*   Maryam Mehrnezhad, Royal Holloway University of Lonodn, UK
 *   Maxime Veit, Karlsruhe Institute of Technology
 *   Mike West, Google
 *   Nick Doty, Center for Democracy & Technology
