@@ -1,21 +1,30 @@
 ---
 layout: home
+permalink: /report/
 ---
 
+<style>
+	h2 {
+		font-size: 2rem;
+	}
+	h3 {
+		font-size: 1.75rem;
+		margin-top: 2em;
+	}
+</style>
+
 # Report on the 2022 W3C Workshop on Permissions
-
 Dec 5–6, 2022, Munich
-
 
 ## Executive Summary
 
-*   Future work should build on the key strengths of the web: safety-by-default, linkability, ephemerality, and interoperability across browsers and platforms.
-*   There was significant interest in non-prompt, contextual permission UIs, which are more seamlessly embedded into the user's journey, and follow the "user-push" model instead of the "developer-pull" model. This approach could allow for more intuitive user controls and better contextual integrity, promote light patterns over dark patterns, and provide user agents with better insight into user intent and inform predictive systems.
-*   User agents could surface – or adjust behavior based on – additional signals to support informed user choices. These signals might include purpose declarations by developers, crowd-sourced statistics, ratings or reviews, etc. Defining a purpose in a structured language could enable browsers to reframe permissions in terms of utility and potential consequences rather than technical ability, and allow independent parties to audit usage. We can [learn from P3P](https://www.w3.org/2014/privacyws/pp/Binns.pdf).
-*   Several areas could benefit from further user research. Examples include understanding the effectiveness of browser-owned UI that crosses the so-called [line of death](https://textslashplain.com/2017/01/14/the-line-of-death/https://textslashplain.com/2017/01/14/the-line-of-death/) to mitigate spoofing risks. Another concerns the granularity and presentation of purpose specifications, such that they provide the most transparency with the least friction to users.
-*   There was agreement that getting the UX of permission flows right is a core aspect of making capabilities work well, especially as more capabilities get used in web apps and on a larger variety of interconnected devices. There was a desire to incorporate discussions and considerations around UX into standardization work, for example by building a forum in which to seek UX consensus among implementers and the community.
-*   On shaping APIs and specifications, we identified a tension between being known-use-case driven vs. generic-purpose APIs. While the former can often allow crafting better UX, the latter enables broader innovation. In both worlds, developers need guidance and the right tooling to help them deliver on their responsibilities towards users' privacy.
-*   For accessibility, an important short term goal could be to provide consistent _earcons_ across browsers as non-visual indicators of capability used by websites.
+* Future work should build on the key strengths of the web: safety-by-default, linkability, ephemerality, and interoperability across browsers and platforms.
+* There was significant interest in non-prompt, contextual permission UIs, which are more seamlessly embedded into the user's journey, and follow the "user-push" model instead of the "developer-pull" model. This approach could allow for more intuitive user controls and better contextual integrity, promote light patterns over dark patterns, and provide user agents with better insight into user intent and inform predictive systems.
+* User agents could surface – or adjust behavior based on – additional signals to support informed user choices. These signals might include purpose declarations by developers, crowd-sourced statistics, ratings or reviews, etc. Defining a purpose in a structured language could enable browsers to reframe permissions in terms of utility and potential consequences rather than technical ability, and allow independent parties to audit usage. We can [learn from P3P](https://www.w3.org/2014/privacyws/pp/Binns.pdf).
+* Several areas could benefit from further user research. Examples include understanding the effectiveness of browser-owned UI that crosses the so-called [line of death](https://textslashplain.com/2017/01/14/the-line-of-death/https://textslashplain.com/2017/01/14/the-line-of-death/) to mitigate spoofing risks. Another concerns the granularity and presentation of purpose specifications, such that they provide the most transparency with the least friction to users.
+* There was agreement that getting the UX of permission flows right is a core aspect of making capabilities work well, especially as more capabilities get used in web apps and on a larger variety of interconnected devices. There was a desire to incorporate discussions and considerations around UX into standardization work, for example by building a forum in which to seek UX consensus among implementers and the community.
+* On shaping APIs and specifications, we identified a tension between being known-use-case driven vs. generic-purpose APIs. While the former can often allow crafting better UX, the latter enables broader innovation. In both worlds, developers need guidance and the right tooling to help them deliver on their responsibilities towards users' privacy.
+* For accessibility, an important short term goal could be to provide consistent _earcons_ across browsers as non-visual indicators of capability used by websites.
 
 
 ## Introduction
@@ -29,10 +38,7 @@ This report collects some highlights from the individual sessions, based on [the
 
 ### Agenda
 
-Slides, when available, are linked to the corresponding agenda entry:
-
-<https://www.w3.org/Privacy/permissions-ws-2022/schedule>
-
+[Agenda can be found here]({{ site.baseurl }}/schedule). Slides, when available, are linked to the corresponding agenda entry.
 
 ### Participants
 
@@ -82,7 +88,7 @@ This document is a summary of the minutes, which are [available in their raw for
 
 ## Session summaries
 
-### Permissions & Consent {#permissions-&-consent}
+### Permissions & Consent
 
 **Presenter**: Lukasz Olejnik (independent researcher, fellow of Geneva Academy of International Humanitarian Law and Human rights)
 
@@ -97,7 +103,7 @@ The discussion revealed that it is still uncertain whether users understand the 
 
 **Presenter**: Maryam Mehrnezhad, Royal Holloway University of London
 
-**Slides**:
+**Slides**: \[Link not yet provided\]
 
 This session began by introducing the results of three papers: a [user study on cookie notice dialogs across platforms](https://ieeexplore.ieee.org/abstract/document/9229687) (various browsers on mobile and PC as well as mobile apps), [tracking practices and user behavior across countries](https://petsymposium.org/2022/files/papers/issue1/popets-2022-0006.pdf) (UK, Germany, France), and [mobile sensor permissions via websites and apps](https://dl.acm.org/doi/abs/10.1145/3549015.3554171). Findings include the strong prevalence of dark patterns across platforms, differences across demographics when it comes to user behavior and a perceived advantage of websites over apps, as websites can "just be closed".
 
@@ -111,11 +117,11 @@ The ensuing discussion focused on incentives for websites to request the minimal
 *   What works or doesn't work is likely highly contextual to a given capability and situation. For example, Firefox telemetry shows that webRTC prompts have very high accept rates and it thus seems likely that users understand such prompts. For other prompts, this is likely quite different.
 
 
-### Permission Misuse & Dark Patterns {#permission-misuse-&-dark-patterns}
+### Permission Misuse & Dark Patterns
 
 **Presenter**: Balazs Engedy, Igor Bilogrevic, Google
 
-**Slides**: TBD
+**Slides**: \[Link not yet provided\]
 
 To kick off the session, the introduction contrasted anti-patterns to dark patterns using the example of the notifications permission: prompting on page load is an anti-pattern vs. tricking the user into allowing is a dark pattern. More generally, [dark strategies](https://www.petsymposium.org/2016/files/papers/Tales_from_the_Dark_Side__Privacy_Dark_Strategies_and_Privacy_Dark_Patterns.pdf) are inverses of [Hoepman's privacy strategies](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf), and among those, data minimization, informing the user, and meaningful controls are the most actionable for user agents to improve.
 
@@ -130,7 +136,7 @@ User agents should do more to set user expectations regarding the consequences o
 We concluded the session by enumerating a few additional dark patterns, including: install-time permissions in most forms, unnecessarily bundling permissions, the "bait & switch" strategy where the website primes the user for permission A but prompts for permission B (e.g. WebUSB instead of camera), and, finally, pre-prompts to only trigger the rate-limited native permission prompts when the user is likely to accept them (which is an obvious response to user agents intervening in case of low grant rates).
 
 
-### User-centric Questions & Meaningful Choices {#user-centric-questions-&-meaningful-choices}
+### User-centric Questions & Meaningful Choices
 
 **Presenter**: Wendy Seltzer, W3C
 
@@ -148,7 +154,7 @@ After an opening presentation pointing out where permissions developments can im
 
 **Presenter**: Serge Egelman, UC Berkeley / ICSI / AppCensus
 
-**Slides**: TBD
+**Slides**: \[Link not yet provided\]
 
 **Summary by**: Marian Harbach
 
@@ -165,7 +171,7 @@ The group then wondered how much developers' claims on using permissions need to
 
 **Presenter**: Serena Chen, Google
 
-**Slides**: TBD
+**Slides**: <https://docs.google.com/presentation/d/1HsDd776t_YXAcsIYzkK3_-aW5WDzsJEQ5AGqi8OoGWk/edit?usp=sharing>
 
 The purpose of permission prompts is for detecting user intent around capabilities on the web that may be outside of typical user mental models for what the web is and is not capable of. Capabilities that are within typical user mental models for what the web can do (such as display text, images, run JavaScript, etc) do not require prompts. Capabilities outside of these mental models require a stronger signal of user intent, to better match their expectations to reality.
 
@@ -213,7 +219,7 @@ Suggested future work is to further investigate pull-based permissions models as
 
 **Presenter**: Penelope McLachlan, Google
 
-**Slides**: TBD
+**Slides**: \[Link not yet provided\]
 
 The web is a successful application platform, especially for desktop computing applications in productivity and creativity. However, there's more opportunity for growth.
 
@@ -288,7 +294,7 @@ In the status quo, we often talk about permission grants being overly broad, but
 Changing the current permission mechanics also comes at a cost. Adding the time dimension could increase friction and could make the scenario worse than we had before. Conversely, reducing friction could increase confusion. We need to be really clear about the exact problem that needs to be solved before going into solutions.
 
 
-### Prompting for purpose & permission grouping {#prompting-for-purpose-&-permission-grouping}
+### Prompting for purpose & permission grouping
 
 **Reporter**: Penelope McLachlan
 
@@ -316,7 +322,7 @@ Longer term objectives seek to leverage privacy preserving secure digital creden
 We have a concern that a vicious circle can exist when a person with a disability may need to install an extension-based assistive technology, but is unable to manage permissions effectively because of accessibility barriers that may exist within the installation, or specific permission on-boarding flows until the extension is installed, and has its required permissions granted.
 
 
-### Incentivizing developers to use good patterns / How to design ‘good' friction? {#incentivizing-developers-to-use-good-patterns-how-to-design-‘good'-friction}
+### Incentivizing developers to use good patterns / How to design ‘good' friction?
 
 **Reporter**: Arnout Terpstra
 
@@ -357,7 +363,7 @@ The main takeaways from this session were:
 *   From a website perspective, the lack of browser unification around UX makes it hard to create great end user experiences.
 
 
-### Useful attestations / promises / policies; Operationalising ‘Contextual Integrity' {#useful-attestations-promises-policies-operationalising-‘contextual-integrity'}
+### Useful attestations / promises / policies; Operationalising ‘Contextual Integrity'
 
 **Reporter**: Serge Egelman
 

@@ -218,10 +218,17 @@ a.ref {
   border-bottom: solid thin var(--blue);
 }
 
+p, ul, ol {
+  line-height: 1.5;
+}
+
+ul, ol {
+  margin-left: 0;
+  padding-left: 2em;
+}
+
 ul {
   list-style: square;
-  margin-left: 0;
-  padding-left: 1em;
 }
 
 ul ul {
