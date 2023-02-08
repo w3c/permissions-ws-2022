@@ -1,6 +1,7 @@
 ---
 layout: home
-permalink: /report/
+permalink: /report
+toc: true
 ---
 
 <style>
@@ -12,9 +13,6 @@ permalink: /report/
 		margin-top: 2em;
 	}
 </style>
-
-# Report on the 2022 W3C Workshop on Permissions
-Dec 5–6, 2022, Munich
 
 ## Executive Summary
 

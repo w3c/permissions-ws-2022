@@ -3,12 +3,14 @@ layout: home
 toc: true
 ---
 
-# What is the purpose of this workshop?
+This workshop has now concluded. You can find the [summary report here]({{ site.baseurl }}/report/).
+
+# Purpose of this workshop
 Existing and novel Web APIs being used in more and more contexts challenge what users can easily deal with. They may have trouble understanding which information is being disclosed to whom and the threats presented by those disclosures. Deciding when and how to seek a user’s permission or when that permission can be inferred or bypassed has been challenging, with different APIs, operating systems, and browsers handling things in different ways. Both web applications and native applications may face similar challenges in this space, therefore discussions on challenges and solutions spanning these two contexts are in scope.
 
 The W3C Workshop on Permissions brings together security and privacy experts, UI/UX designers and researchers, browser vendors, OS developers, API authors, web publishers and users. We aim to address the privacy, security and usability challenges involved in controlling access to an increasingly powerful set of capabilities on the Web and other platforms.
 
-# Which topics will be covered?
+# Topics covered
 To keep the scope of this workshop practical, we'd like to encourage conversation about the ways in which user agents can (or cannot) engage users in its decisions about which capabilities to expose to which websites. The proposed scope includes:
 
 - user concerns and preferences;
@@ -42,7 +44,7 @@ The closest airport is Munich International Airport (MUC).
 
 _Note that because of the compressed schedule, we will be notifying attendees as soon as possible after we receive a statement of interest._
 
-# Program Committee (tentative)
+# Program Committee
 - Balazs Engedy, Google
 - Lukasz Olejnik, independent researcher, fellow of Geneva Academy of International Humanitarian Law and Human rights
 - Wendy Seltzer, W3C

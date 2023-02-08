@@ -1,3 +1,45 @@
+{% if page.url contains "report" %}
+
+<aside class="box">
+    <h2>Table of Contents</h2>
+        <ul id="toc" class="section-nav">
+            <li class="toc-entry"><a href="#executive-summary">Executive Summary</a></li>
+            <li class="toc-entry"><a href="#introduction">Introduction</a></li>
+            <li class="toc-entry"><a href="#artifacts">Artifacts</a></li>
+            <ul>
+                <li class="toc-entry"><a href="#agenda">Agenda</a></li>
+                <li class="toc-entry"><a href="#participants">Participants</a></li>
+                <li class="toc-entry"><a href="#minutes">Minutes</a></li>
+            </ul>
+            <li class="toc-entry"><a href="#session-summaries">Session Summaries</a></li>
+            <ul>
+                <li class="toc-entry"><a href="#permissions--consent">Permissions & Consent</a></li>
+                <li class="toc-entry"><a href="#cross-platform-comparison-of-permission-models">Cross-Platform Comparison of Permission Models</a></li>
+                <li class="toc-entry"><a href="#permission-misuse--dark-patterns">Permission Misuse & Dark Patterns</a></li>
+                <li class="toc-entry"><a href="#user-centric-questions--meaningful-choices">User-centric Questions & Meaningful Choices</a></li>
+                <li class="toc-entry"><a href="#transparency-and-auditing">Transparency and Auditing</a></li>
+                <li class="toc-entry"><a href="#beyond-prompts">Beyond Prompts</a></li>
+                <li class="toc-entry"><a href="#permissions-ux-across-form-factors">Permissions UX Across Form Factors</a></li>
+                <li class="toc-entry"><a href="#new-web-experiences-and-app-models">New Web Experiences and App Models</a></li>
+            </ul>
+            <li class="toc-entry"><a href="#breakout-summaries">Breakout Summaries</a></li>
+            <ul>
+                <li class="toc-entry"><a href="#novel-building-blocks-for-capability-control">Novel building blocks for capability control</a></li>
+                <li class="toc-entry"><a href="#keying-permissions-to-tasks-vs-origin-vs-app">Keying permissions to tasks vs origin vs app</a></li>
+                <li class="toc-entry"><a href="#prompting-for-purpose--permission-grouping">Prompting for purpose & permission grouping</a></li>
+                <li class="toc-entry"><a href="#accessibility-considerations">Accessibility considerations</a></li>
+                <li class="toc-entry"><a href="#incentivizing-developers-to-use-good-patterns--how-to-design-good-friction">Incentivizing developers to use good patterns / How to design ‘good’ friction?</a></li>
+                <li class="toc-entry"><a href="#how-to-involve-ux-more-in-standards-processes">How to involve UX more in standards processes?</a></li>
+                <li class="toc-entry"><a href="#useful-attestations--promises--policies-operationalising-contextual-integrity">Useful attestations / promises / policies; Operationalising ‘Contextual Integrity’</a></li>
+                <li class="toc-entry"><a href="#use-case-driven-spec-work--updating-specs">Use case driven spec work / Updating specs</a></li>
+            </ul>
+            <li class="toc-entry"><a href="#participant-feedback">Participant Feedback</a></li>
+            <li class="toc-entry"><a href="#acknowledgements--appreciation">Acknowledgements & Appreciation</a></li>
+        </ul>
+</aside>
+
+{% else %}
+
 <aside class="box">
     <h2>Table of Contents</h2>
         <ul id="toc" class="section-nav">
@@ -9,3 +51,5 @@
             <li class="toc-entry"><a href="#what-is-w3c">What is W3C?</a></li>
         </ul>
 </aside>
+
+{% endif %}

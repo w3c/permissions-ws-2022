@@ -110,9 +110,10 @@ a.ref {
   color: #666;
   float: right;
   font-size: 1rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
   padding: 1em;
-  width: 19em;
+  max-width: 24rem;
 }
 
 .box + .box {
@@ -130,6 +131,7 @@ a.ref {
 }
 #toc {
   margin-top: 0.5em;
+  padding-left: 1.25em;
 }
 
 .toc-entry ul {
