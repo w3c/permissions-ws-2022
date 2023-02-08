@@ -65,7 +65,7 @@ We are planning to run themed discussion sessions on the first day. The second d
                     <p><i>Lead: Maryam Mehrnezhad, Royal Holloway University of London</i></p>
                 </li>
                 <li>
-                    <h4>Permission Misuse & Dark Patterns</h4>
+                    <h4>Permission Misuse & Dark Patterns (<a href="papers/Permission-Misuse-and-Dark-Patterns.pdf">slides</a>)</h4>
                     <p><i>Lead: Balazs Engedy, Igor Bilogrevic, Google</i></p>
                 </li>
             </ul>
