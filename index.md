@@ -3,8 +3,6 @@ layout: home
 toc: true
 ---
 
-This workshop has now concluded. You can find the [summary report here]({{ site.baseurl }}/report/).
-
 # Purpose of this workshop
 Existing and novel Web APIs being used in more and more contexts challenge what users can easily deal with. They may have trouble understanding which information is being disclosed to whom and the threats presented by those disclosures. Deciding when and how to seek a user’s permission or when that permission can be inferred or bypassed has been challenging, with different APIs, operating systems, and browsers handling things in different ways. Both web applications and native applications may face similar challenges in this space, therefore discussions on challenges and solutions spanning these two contexts are in scope.
 

@@ -4,16 +4,6 @@ permalink: /report
 toc: true
 ---
 
-<style>
-	h2 {
-		font-size: 2rem;
-	}
-	h3 {
-		font-size: 1.75rem;
-		margin-top: 2em;
-	}
-</style>
-
 ## Executive Summary
 
 * Future work should build on the key strengths of the web: safety-by-default, linkability, ephemerality, and interoperability across browsers and platforms.
