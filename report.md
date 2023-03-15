@@ -175,7 +175,7 @@ This session aimed to explore additional or alternative ways to detect user inte
 - Sandbox the most risky parts of new capabilities
 - In-context triggers, such as an HTML Permission Element
 
-In the discussion portion, there was significant interest in the idea of preferring user-push moments over developer-pull. We would need to design enough consistency in this pattern.  There was a suggestion to create a GitHub repo to explore these ideas.
+In the discussion portion, there was significant interest in the idea of preferring user-pull moments over developer-push. We would need to design enough consistency in this pattern.  There was a suggestion to create a GitHub repo to explore these ideas.
 
 There was significant discussion about a potential HTML element for permission requests. There were open questions around customisation:
 
